@@ -1,0 +1,27 @@
+electricity,type,electricity
+biomass (conv CCS),clean,biomass (CCS)
+biomass (conv),clean,biomass
+biomass (IGCC CCS),clean,biomass (CCS)
+biomass (IGCC),clean,biomass
+coal (conv pul CCS),clean,coal (CCS)
+coal (conv pul),conventional,coal
+coal (IGCC CCS),clean,coal (CCS)
+coal (IGCC),conventional,coal
+CSP,clean,concentrated solar power
+CSP_storage,clean,concentrated solar power
+gas (CC CCS),clean,gas (CCS)
+gas (CC),conventional,gas
+gas (steam/CT),conventional,gas
+Gen_II_LWR,clean,nuclear generation
+Gen_III,clean,nuclear generation
+geothermal,clean,geothermal
+hydro,clean,hydro
+PV,clean,PV
+PV_storage,clean,PV
+refined liquids (CC CCS),clean,refined liquids (CCS)
+refined liquids (CC),conventional,refined liquids
+refined liquids (steam/CT),conventional,refined liquids
+rooftop_pv,clean,PV
+wind,clean,wind
+wind_offshore,clean,wind
+wind_storage,clean,wind

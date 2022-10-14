@@ -1,0 +1,81 @@
+GCAM_sector,sector_mapping
+agricultural energy use,industry
+alumina,industry
+backup_electricity,electricity
+cement,industry
+chemical energy use,industry
+chemical feedstocks,industry
+comm cooling,buildings
+comm heating,buildings
+comm others,buildings
+construction energy use,industry
+construction feedstocks,industry
+csp_backup,electricity
+delivered biomass,other energy supply
+delivered gas,other energy supply
+desalinated water,industry
+district heat,other energy supply
+elec_biomass (conv CCS),electricity
+elec_biomass (IGCC CCS),electricity
+elec_coal (conv pul CCS),electricity
+elec_coal (IGCC CCS),electricity
+elec_gas (CC CCS),electricity
+elec_refined liquids (CC CCS),electricity
+electricity,electricity
+gas pipeline,other energy supply
+gas processing,other energy supply
+H2 central production,hydrogen
+H2 wholesale dispensing,hydrogen
+iron and steel,iron and steel
+mining energy use,industry
+N fertilizer,industry
+other industrial energy use,industry
+other industrial feedstocks,industry
+process heat cement,industry
+refined liquids enduse,other energy supply
+refined liquids industrial,industry
+refining,other energy supply
+resid cooling,buildings
+resid heating,buildings
+resid others,buildings
+trn_aviation_intl,transportation
+trn_freight,transportation
+trn_freight_road,transportation
+trn_pass,transportation
+trn_pass_road,transportation
+trn_pass_road_LDV,transportation
+trn_pass_road_LDV_4W,transportation
+trn_shipping_intl,transportation
+wholesale gas,other energy supply
+airCO2,CO2 removal
+process heat dac,CO2 removal
+industrial processes,industry
+urban processes,buildings
+electricity_net_ownuse,electricity
+UnmanagedLand,LULUCF
+Beef,agriculture
+Dairy,agriculture
+Pork,agriculture
+Poultry,agriculture
+Rice,agriculture
+SheepGoat,agriculture
+biomass,LULUCF
+Corn,agriculture
+FiberCrop,agriculture
+FodderGrass,agriculture
+Fruits,agriculture
+Legumes,agriculture
+MiscCrop,agriculture
+NutsSeeds,agriculture
+OilCrop,agriculture
+OilPalm,agriculture
+OtherGrain,agriculture
+RootTuber,agriculture
+Soybean,agriculture
+SugarCrop,agriculture
+Vegetables,agriculture
+Wheat,agriculture
+FodderHerb,agriculture
+crude oil,oil and gas
+coal,oil and gas
+natural gas,oil and gas
