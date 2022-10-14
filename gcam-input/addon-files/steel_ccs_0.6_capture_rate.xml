@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+             <location-info sector-name="iron and steel" subsector-name="BLASTFUR">
+                <technology name="BLASTFUR CCS">
+                    <period year="2020">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="iron and steel" subsector-name="EAF with DRI">
+                <technology name="EAF with DRI CCS">
+                     <period year="2020">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                        <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                         <standard-capture-component>
+                            <remove-fraction>0.6</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+            </location-info>
+     </global-technology-database>
+  </world>
+</scenario>

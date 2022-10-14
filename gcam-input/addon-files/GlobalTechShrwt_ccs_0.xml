@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="biomass">
+                <technology name="biomass (conv CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="biomass (IGCC CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="coal">
+                <technology name="coal (conv pul CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="coal (IGCC CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="gas">
+                <technology name="gas (CC CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="refined liquids">
+                <technology name="refined liquids (CC CCS)">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="refining" subsector-name="biomass liquids">
+                <technology name="cellulosic ethanol CCS level 1">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="cellulosic ethanol CCS level 2">
+                       <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 1">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 2">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="refining" subsector-name="coal to liquids">
+                <technology name="coal to liquids CCS level 1">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="coal to liquids CCS level 2">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="H2 central production" subsector-name="biomass">
+                <technology name="biomass to H2 CCS">
+                     <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="H2 central production" subsector-name="coal">
+                <technology name="coal chemical CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="H2 central production" subsector-name="gas">
+                <technology name="natural gas steam reforming CCS">
+                     <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="cement" subsector-name="cement">
+                <technology name="cement CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="N fertilizer" subsector-name="coal">
+                <technology name="coal CCS">
+                     <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="N fertilizer" subsector-name="gas">
+                <technology name="gas CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="iron and steel" subsector-name="BLASTFUR">
+                <technology name="BLASTFUR CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="iron and steel" subsector-name="EAF with DRI">
+                <technology name="EAF with DRI CCS">
+                     <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="chemical energy use" subsector-name="refined liquids">
+                <technology name="refined liquids CCS">
+                     <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="chemical energy use" subsector-name="gas">
+                <technology name="gas CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="chemical energy use" subsector-name="biomass">
+                <technology name="biomass CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="chemical energy use" subsector-name="coal">
+                <technology name="coal CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="alumina" subsector-name="refined liquids">
+                <technology name="refined liquids CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+           <location-info sector-name="alumina" subsector-name="coal">
+                <technology name="coal CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+           <location-info sector-name="alumina" subsector-name="gas">
+                <technology name="gas CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+          <location-info sector-name="alumina" subsector-name="biomass">
+                <technology name="biomass CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>
