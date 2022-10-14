@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="Africa_Eastern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.252734</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.164071</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.5</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Western">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.050534</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Argentina">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.607315</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.08692</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Brazil">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.118891</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Canada">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.71043</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.099511</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central Asia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.19567</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="China">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.25</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Colombia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1274515</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-12">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.225696</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-15">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.3868455</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Eastern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.112899</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.2315755</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.5</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="India">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1590175</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Indonesia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.293364</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Japan">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1396505</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Mexico">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.099752</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Middle East">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.153018</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Pakistan">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.335438</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Russia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1406095</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Africa">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1164815</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Northern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.0376296</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Southern">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1446825</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Asia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.2927775</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Korea">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.145273</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Taiwan">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.165644</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="USA">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.5</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

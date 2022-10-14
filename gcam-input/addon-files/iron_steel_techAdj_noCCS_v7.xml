@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">2</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Eastern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Western">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Brazil">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Canada">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central Asia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="China">
+            <supplysector name="iron and steel">
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <technology name="Hydrogen-based DRI">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0.083333333</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.166666667</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2035">
+                            <share-weight>0.25</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2040">
+                            <share-weight>0.333333333</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2045">
+                            <share-weight>0.416666667</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2055">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2060">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2065">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2070">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2075">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2080">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2085">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2090">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2095">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2100">
+                            <share-weight>0.5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                    </technology>
+                </subsector>
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2040" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.5</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2060" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-12">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">2</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-15">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">2</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Eastern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="India">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <technology name="Biomass-based">
+                        <period year="2020">
+                            <share-weight>0.001612903</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0.009</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2035">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2040">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2045">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2055">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2060">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2065">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2070">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2075">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2080">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2085">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2090">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2095">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2100">
+                            <share-weight>0.01</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                    </technology>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Indonesia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Japan">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Mexico">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Middle East">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Pakistan">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Russia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Africa">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Northern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Southern">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Asia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Korea">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <technology name="BLASTFUR CCS">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2035">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2040">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2045">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2055">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2060">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2065">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2070">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2075">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2080">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2085">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2090">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2095">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2100">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                    </technology>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <technology name="EAF with DRI CCS">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2035">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2040">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2045">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2055">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2060">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2065">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2070">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2075">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2080">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2085">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2090">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2095">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2100">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                    </technology>
+                    <technology name="Hydrogen-based DRI">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2025">
+                            <share-weight>5</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2030">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2035">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2040">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2045">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2050">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2055">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2060">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2065">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2070">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2075">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2080">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2085">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2090">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2095">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                        <period year="2100">
+                            <share-weight>10</share-weight>
+                            <CO2 name="CO2"/>
+                        </period>
+                    </technology>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">0.2</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2035" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Taiwan">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Argentina">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Colombia">
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <share-weight fillout="1" year="1975">0.03</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2045" delete = "1">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete = "1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <global-technology-database>
+            <location-info sector-name="iron and steel" subsector-name="EAF with DRI">
+                <technology name="EAF with DRI CCS">
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="iron and steel" subsector-name="BLASTFUR">
+                <technology name="BLASTFUR with hydrogen">
+                    <period year="2025">
+                        <share-weight>0.01</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0.04</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0.125</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0.333333</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0.416666666</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+                <technology name="BLASTFUR CCS">
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2055">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2060">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2065">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2070">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2075">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2080">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2085">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2090">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2095">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2"/>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>
