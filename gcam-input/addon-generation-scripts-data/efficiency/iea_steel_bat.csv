@@ -1,0 +1,13 @@
+﻿tech,process_step,fuel,intensity
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Coke oven with coke dry quenching,,2.16
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Sintering plant with WHR,,1.44
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Pelletising plant,,0.39
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Blast furnace,coal injection (with Top-pressure Recovery Turbines),11.71
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Blast furnace,gas injection (with Top-pressure Recovery Turbines),10.49
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Blast furnace,charcoal,23.67
+Blast Furnace-Basic Oxygen Furnace Process Route (BF-BOF),Basic Oxygen Furnace with BOFG recovery and WHR,,-0.75
+Direct Reduced Iron-Electric Arc Furnace (DRI-EAF),Pelletising plant,,0.39
+Direct Reduced Iron-Electric Arc Furnace (DRI-EAF),DRI plant,gas based,10.89
+Direct Reduced Iron-Electric Arc Furnace (DRI-EAF),DRI plant,coal based,19.86
+Direct Reduced Iron-Electric Arc Furnace (DRI-EAF),Electric Arc Furnace DRI based with WHR,,1.75
+Scrap-based EAF,Electric Arc Furnace scrap based with WHR,,1.13

@@ -1,0 +1,485 @@
+sector.name,subsector.name,technology,year,share.weight
+H2 central production,biomass,biomass to H2,1975,1
+H2 central production,biomass,biomass to H2,1990,1
+H2 central production,biomass,biomass to H2,2005,1
+H2 central production,biomass,biomass to H2,2010,1
+H2 central production,biomass,biomass to H2,2015,1
+H2 central production,biomass,biomass to H2,2020,1
+H2 central production,biomass,biomass to H2,2025,1
+H2 central production,biomass,biomass to H2,2030,1
+H2 central production,biomass,biomass to H2,2035,1
+H2 central production,biomass,biomass to H2,2040,1
+H2 central production,biomass,biomass to H2,2045,1
+H2 central production,biomass,biomass to H2,2050,1
+H2 central production,biomass,biomass to H2,2055,1
+H2 central production,biomass,biomass to H2,2060,1
+H2 central production,biomass,biomass to H2,2065,1
+H2 central production,biomass,biomass to H2,2070,1
+H2 central production,biomass,biomass to H2,2075,1
+H2 central production,biomass,biomass to H2,2080,1
+H2 central production,biomass,biomass to H2,2085,1
+H2 central production,biomass,biomass to H2,2090,1
+H2 central production,biomass,biomass to H2,2095,1
+H2 central production,biomass,biomass to H2,2100,1
+H2 central production,biomass,biomass to H2 CCS,1975,0
+H2 central production,biomass,biomass to H2 CCS,1990,0
+H2 central production,biomass,biomass to H2 CCS,2005,0
+H2 central production,biomass,biomass to H2 CCS,2010,0
+H2 central production,biomass,biomass to H2 CCS,2015,0
+H2 central production,biomass,biomass to H2 CCS,2020,0
+H2 central production,biomass,biomass to H2 CCS,2025,0.5
+H2 central production,biomass,biomass to H2 CCS,2030,1
+H2 central production,biomass,biomass to H2 CCS,2035,1
+H2 central production,biomass,biomass to H2 CCS,2040,1
+H2 central production,biomass,biomass to H2 CCS,2045,1
+H2 central production,biomass,biomass to H2 CCS,2050,1
+H2 central production,biomass,biomass to H2 CCS,2055,1
+H2 central production,biomass,biomass to H2 CCS,2060,1
+H2 central production,biomass,biomass to H2 CCS,2065,1
+H2 central production,biomass,biomass to H2 CCS,2070,1
+H2 central production,biomass,biomass to H2 CCS,2075,1
+H2 central production,biomass,biomass to H2 CCS,2080,1
+H2 central production,biomass,biomass to H2 CCS,2085,1
+H2 central production,biomass,biomass to H2 CCS,2090,1
+H2 central production,biomass,biomass to H2 CCS,2095,1
+H2 central production,biomass,biomass to H2 CCS,2100,1
+H2 central production,coal,coal chemical,1975,0
+H2 central production,coal,coal chemical,1990,0
+H2 central production,coal,coal chemical,2005,0
+H2 central production,coal,coal chemical,2010,0
+H2 central production,coal,coal chemical,2015,0
+H2 central production,coal,coal chemical,2020,0
+H2 central production,coal,coal chemical,2025,0
+H2 central production,coal,coal chemical,2030,0
+H2 central production,coal,coal chemical,2035,0
+H2 central production,coal,coal chemical,2040,0
+H2 central production,coal,coal chemical,2045,0
+H2 central production,coal,coal chemical,2050,0
+H2 central production,coal,coal chemical,2055,0
+H2 central production,coal,coal chemical,2060,0
+H2 central production,coal,coal chemical,2065,0
+H2 central production,coal,coal chemical,2070,0
+H2 central production,coal,coal chemical,2075,0
+H2 central production,coal,coal chemical,2080,0
+H2 central production,coal,coal chemical,2085,0
+H2 central production,coal,coal chemical,2090,0
+H2 central production,coal,coal chemical,2095,0
+H2 central production,coal,coal chemical,2100,0
+H2 central production,coal,coal chemical CCS,1975,0
+H2 central production,coal,coal chemical CCS,1990,0
+H2 central production,coal,coal chemical CCS,2005,0
+H2 central production,coal,coal chemical CCS,2010,0
+H2 central production,coal,coal chemical CCS,2015,0
+H2 central production,coal,coal chemical CCS,2020,0
+H2 central production,coal,coal chemical CCS,2025,0.5
+H2 central production,coal,coal chemical CCS,2030,1
+H2 central production,coal,coal chemical CCS,2035,1
+H2 central production,coal,coal chemical CCS,2040,1
+H2 central production,coal,coal chemical CCS,2045,1
+H2 central production,coal,coal chemical CCS,2050,1
+H2 central production,coal,coal chemical CCS,2055,1
+H2 central production,coal,coal chemical CCS,2060,1
+H2 central production,coal,coal chemical CCS,2065,1
+H2 central production,coal,coal chemical CCS,2070,1
+H2 central production,coal,coal chemical CCS,2075,1
+H2 central production,coal,coal chemical CCS,2080,1
+H2 central production,coal,coal chemical CCS,2085,1
+H2 central production,coal,coal chemical CCS,2090,1
+H2 central production,coal,coal chemical CCS,2095,1
+H2 central production,coal,coal chemical CCS,2100,1
+H2 central production,electricity,electrolysis,1975,1
+H2 central production,electricity,electrolysis,1990,1
+H2 central production,electricity,electrolysis,2005,1
+H2 central production,electricity,electrolysis,2010,1
+H2 central production,electricity,electrolysis,2015,1
+H2 central production,electricity,electrolysis,2020,1
+H2 central production,electricity,electrolysis,2025,1
+H2 central production,electricity,electrolysis,2030,1
+H2 central production,electricity,electrolysis,2035,1
+H2 central production,electricity,electrolysis,2040,1
+H2 central production,electricity,electrolysis,2045,1
+H2 central production,electricity,electrolysis,2050,1
+H2 central production,electricity,electrolysis,2055,1
+H2 central production,electricity,electrolysis,2060,1
+H2 central production,electricity,electrolysis,2065,1
+H2 central production,electricity,electrolysis,2070,1
+H2 central production,electricity,electrolysis,2075,1
+H2 central production,electricity,electrolysis,2080,1
+H2 central production,electricity,electrolysis,2085,1
+H2 central production,electricity,electrolysis,2090,1
+H2 central production,electricity,electrolysis,2095,1
+H2 central production,electricity,electrolysis,2100,1
+H2 central production,gas,natural gas steam reforming,1975,1
+H2 central production,gas,natural gas steam reforming,1990,1
+H2 central production,gas,natural gas steam reforming,2005,1
+H2 central production,gas,natural gas steam reforming,2010,1
+H2 central production,gas,natural gas steam reforming,2015,1
+H2 central production,gas,natural gas steam reforming,2020,1
+H2 central production,gas,natural gas steam reforming,2025,1
+H2 central production,gas,natural gas steam reforming,2030,1
+H2 central production,gas,natural gas steam reforming,2035,1
+H2 central production,gas,natural gas steam reforming,2040,1
+H2 central production,gas,natural gas steam reforming,2045,1
+H2 central production,gas,natural gas steam reforming,2050,1
+H2 central production,gas,natural gas steam reforming,2055,1
+H2 central production,gas,natural gas steam reforming,2060,1
+H2 central production,gas,natural gas steam reforming,2065,1
+H2 central production,gas,natural gas steam reforming,2070,1
+H2 central production,gas,natural gas steam reforming,2075,1
+H2 central production,gas,natural gas steam reforming,2080,1
+H2 central production,gas,natural gas steam reforming,2085,1
+H2 central production,gas,natural gas steam reforming,2090,1
+H2 central production,gas,natural gas steam reforming,2095,1
+H2 central production,gas,natural gas steam reforming,2100,1
+H2 central production,gas,natural gas steam reforming CCS,1975,0
+H2 central production,gas,natural gas steam reforming CCS,1990,0
+H2 central production,gas,natural gas steam reforming CCS,2005,0
+H2 central production,gas,natural gas steam reforming CCS,2010,0
+H2 central production,gas,natural gas steam reforming CCS,2015,0
+H2 central production,gas,natural gas steam reforming CCS,2020,0
+H2 central production,gas,natural gas steam reforming CCS,2025,0.5
+H2 central production,gas,natural gas steam reforming CCS,2030,1
+H2 central production,gas,natural gas steam reforming CCS,2035,1
+H2 central production,gas,natural gas steam reforming CCS,2040,1
+H2 central production,gas,natural gas steam reforming CCS,2045,1
+H2 central production,gas,natural gas steam reforming CCS,2050,1
+H2 central production,gas,natural gas steam reforming CCS,2055,1
+H2 central production,gas,natural gas steam reforming CCS,2060,1
+H2 central production,gas,natural gas steam reforming CCS,2065,1
+H2 central production,gas,natural gas steam reforming CCS,2070,1
+H2 central production,gas,natural gas steam reforming CCS,2075,1
+H2 central production,gas,natural gas steam reforming CCS,2080,1
+H2 central production,gas,natural gas steam reforming CCS,2085,1
+H2 central production,gas,natural gas steam reforming CCS,2090,1
+H2 central production,gas,natural gas steam reforming CCS,2095,1
+H2 central production,gas,natural gas steam reforming CCS,2100,1
+H2 central production,nuclear,thermal splitting,1975,1
+H2 central production,nuclear,thermal splitting,1990,1
+H2 central production,nuclear,thermal splitting,2005,1
+H2 central production,nuclear,thermal splitting,2010,1
+H2 central production,nuclear,thermal splitting,2015,1
+H2 central production,nuclear,thermal splitting,2020,1
+H2 central production,nuclear,thermal splitting,2025,1
+H2 central production,nuclear,thermal splitting,2030,1
+H2 central production,nuclear,thermal splitting,2035,1
+H2 central production,nuclear,thermal splitting,2040,1
+H2 central production,nuclear,thermal splitting,2045,1
+H2 central production,nuclear,thermal splitting,2050,1
+H2 central production,nuclear,thermal splitting,2055,1
+H2 central production,nuclear,thermal splitting,2060,1
+H2 central production,nuclear,thermal splitting,2065,1
+H2 central production,nuclear,thermal splitting,2070,1
+H2 central production,nuclear,thermal splitting,2075,1
+H2 central production,nuclear,thermal splitting,2080,1
+H2 central production,nuclear,thermal splitting,2085,1
+H2 central production,nuclear,thermal splitting,2090,1
+H2 central production,nuclear,thermal splitting,2095,1
+H2 central production,nuclear,thermal splitting,2100,1
+H2 central production,solar,electrolysis,1975,1
+H2 central production,solar,electrolysis,1990,1
+H2 central production,solar,electrolysis,2005,1
+H2 central production,solar,electrolysis,2010,1
+H2 central production,solar,electrolysis,2015,1
+H2 central production,solar,electrolysis,2020,1
+H2 central production,solar,electrolysis,2025,1
+H2 central production,solar,electrolysis,2030,1
+H2 central production,solar,electrolysis,2035,1
+H2 central production,solar,electrolysis,2040,1
+H2 central production,solar,electrolysis,2045,1
+H2 central production,solar,electrolysis,2050,1
+H2 central production,solar,electrolysis,2055,1
+H2 central production,solar,electrolysis,2060,1
+H2 central production,solar,electrolysis,2065,1
+H2 central production,solar,electrolysis,2070,1
+H2 central production,solar,electrolysis,2075,1
+H2 central production,solar,electrolysis,2080,1
+H2 central production,solar,electrolysis,2085,1
+H2 central production,solar,electrolysis,2090,1
+H2 central production,solar,electrolysis,2095,1
+H2 central production,solar,electrolysis,2100,1
+H2 central production,wind,electrolysis,1975,1
+H2 central production,wind,electrolysis,1990,1
+H2 central production,wind,electrolysis,2005,1
+H2 central production,wind,electrolysis,2010,1
+H2 central production,wind,electrolysis,2015,1
+H2 central production,wind,electrolysis,2020,1
+H2 central production,wind,electrolysis,2025,1
+H2 central production,wind,electrolysis,2030,1
+H2 central production,wind,electrolysis,2035,1
+H2 central production,wind,electrolysis,2040,1
+H2 central production,wind,electrolysis,2045,1
+H2 central production,wind,electrolysis,2050,1
+H2 central production,wind,electrolysis,2055,1
+H2 central production,wind,electrolysis,2060,1
+H2 central production,wind,electrolysis,2065,1
+H2 central production,wind,electrolysis,2070,1
+H2 central production,wind,electrolysis,2075,1
+H2 central production,wind,electrolysis,2080,1
+H2 central production,wind,electrolysis,2085,1
+H2 central production,wind,electrolysis,2090,1
+H2 central production,wind,electrolysis,2095,1
+H2 central production,wind,electrolysis,2100,1
+H2 industrial,forecourt production,electrolysis,1975,1
+H2 industrial,forecourt production,electrolysis,1990,1
+H2 industrial,forecourt production,electrolysis,2005,1
+H2 industrial,forecourt production,electrolysis,2010,1
+H2 industrial,forecourt production,electrolysis,2015,1
+H2 industrial,forecourt production,electrolysis,2020,1
+H2 industrial,forecourt production,electrolysis,2025,1
+H2 industrial,forecourt production,electrolysis,2030,1
+H2 industrial,forecourt production,electrolysis,2035,1
+H2 industrial,forecourt production,electrolysis,2040,1
+H2 industrial,forecourt production,electrolysis,2045,1
+H2 industrial,forecourt production,electrolysis,2050,1
+H2 industrial,forecourt production,electrolysis,2055,1
+H2 industrial,forecourt production,electrolysis,2060,1
+H2 industrial,forecourt production,electrolysis,2065,1
+H2 industrial,forecourt production,electrolysis,2070,1
+H2 industrial,forecourt production,electrolysis,2075,1
+H2 industrial,forecourt production,electrolysis,2080,1
+H2 industrial,forecourt production,electrolysis,2085,1
+H2 industrial,forecourt production,electrolysis,2090,1
+H2 industrial,forecourt production,electrolysis,2095,1
+H2 industrial,forecourt production,electrolysis,2100,1
+H2 industrial,H2 delivery,H2 delivery,1975,1
+H2 industrial,H2 delivery,H2 delivery,1990,1
+H2 industrial,H2 delivery,H2 delivery,2005,1
+H2 industrial,H2 delivery,H2 delivery,2010,1
+H2 industrial,H2 delivery,H2 delivery,2015,1
+H2 industrial,H2 delivery,H2 delivery,2020,1
+H2 industrial,H2 delivery,H2 delivery,2025,1
+H2 industrial,H2 delivery,H2 delivery,2030,1
+H2 industrial,H2 delivery,H2 delivery,2035,1
+H2 industrial,H2 delivery,H2 delivery,2040,1
+H2 industrial,H2 delivery,H2 delivery,2045,1
+H2 industrial,H2 delivery,H2 delivery,2050,1
+H2 industrial,H2 delivery,H2 delivery,2055,1
+H2 industrial,H2 delivery,H2 delivery,2060,1
+H2 industrial,H2 delivery,H2 delivery,2065,1
+H2 industrial,H2 delivery,H2 delivery,2070,1
+H2 industrial,H2 delivery,H2 delivery,2075,1
+H2 industrial,H2 delivery,H2 delivery,2080,1
+H2 industrial,H2 delivery,H2 delivery,2085,1
+H2 industrial,H2 delivery,H2 delivery,2090,1
+H2 industrial,H2 delivery,H2 delivery,2095,1
+H2 industrial,H2 delivery,H2 delivery,2100,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,1975,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,1990,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2005,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2010,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2015,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2020,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2025,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2030,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2035,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2040,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2045,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2050,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2055,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2060,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2065,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2070,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2075,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2080,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2085,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2090,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2095,1
+H2 liquid truck,H2 liquid truck,H2 liquid truck,2100,1
+H2 pipeline,H2 pipeline,H2 pipeline,1975,1
+H2 pipeline,H2 pipeline,H2 pipeline,1990,1
+H2 pipeline,H2 pipeline,H2 pipeline,2005,1
+H2 pipeline,H2 pipeline,H2 pipeline,2010,1
+H2 pipeline,H2 pipeline,H2 pipeline,2015,1
+H2 pipeline,H2 pipeline,H2 pipeline,2020,1
+H2 pipeline,H2 pipeline,H2 pipeline,2025,1
+H2 pipeline,H2 pipeline,H2 pipeline,2030,1
+H2 pipeline,H2 pipeline,H2 pipeline,2035,1
+H2 pipeline,H2 pipeline,H2 pipeline,2040,1
+H2 pipeline,H2 pipeline,H2 pipeline,2045,1
+H2 pipeline,H2 pipeline,H2 pipeline,2050,1
+H2 pipeline,H2 pipeline,H2 pipeline,2055,1
+H2 pipeline,H2 pipeline,H2 pipeline,2060,1
+H2 pipeline,H2 pipeline,H2 pipeline,2065,1
+H2 pipeline,H2 pipeline,H2 pipeline,2070,1
+H2 pipeline,H2 pipeline,H2 pipeline,2075,1
+H2 pipeline,H2 pipeline,H2 pipeline,2080,1
+H2 pipeline,H2 pipeline,H2 pipeline,2085,1
+H2 pipeline,H2 pipeline,H2 pipeline,2090,1
+H2 pipeline,H2 pipeline,H2 pipeline,2095,1
+H2 pipeline,H2 pipeline,H2 pipeline,2100,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,1975,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,1990,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2005,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2010,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2015,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2020,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2025,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2030,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2035,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2040,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2045,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2050,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2055,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2060,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2065,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2070,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2075,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2080,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2085,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2090,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2095,1
+H2 retail delivery,H2 retail delivery,H2 retail delivery,2100,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,1975,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,1990,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2005,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2010,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2015,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2020,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2025,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2030,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2035,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2040,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2045,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2050,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2055,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2060,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2065,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2070,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2075,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2080,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2085,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2090,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2095,1
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,2100,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,1975,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,1990,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2005,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2010,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2015,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2020,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2025,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2030,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2035,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2040,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2045,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2050,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2055,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2060,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2065,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2070,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2075,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2080,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2085,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2090,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2095,1
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,2100,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,1975,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,1990,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2005,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2010,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2015,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2020,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2025,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2030,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2035,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2040,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2045,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2050,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2055,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2060,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2065,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2070,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2075,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2080,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2085,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2090,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2095,1
+H2 wholesale delivery,H2 pipeline,H2 pipeline,2100,1
+H2 wholesale dispensing,forecourt production,electrolysis,1975,1
+H2 wholesale dispensing,forecourt production,electrolysis,1990,1
+H2 wholesale dispensing,forecourt production,electrolysis,2005,1
+H2 wholesale dispensing,forecourt production,electrolysis,2010,1
+H2 wholesale dispensing,forecourt production,electrolysis,2015,1
+H2 wholesale dispensing,forecourt production,electrolysis,2020,1
+H2 wholesale dispensing,forecourt production,electrolysis,2025,1
+H2 wholesale dispensing,forecourt production,electrolysis,2030,1
+H2 wholesale dispensing,forecourt production,electrolysis,2035,1
+H2 wholesale dispensing,forecourt production,electrolysis,2040,1
+H2 wholesale dispensing,forecourt production,electrolysis,2045,1
+H2 wholesale dispensing,forecourt production,electrolysis,2050,1
+H2 wholesale dispensing,forecourt production,electrolysis,2055,1
+H2 wholesale dispensing,forecourt production,electrolysis,2060,1
+H2 wholesale dispensing,forecourt production,electrolysis,2065,1
+H2 wholesale dispensing,forecourt production,electrolysis,2070,1
+H2 wholesale dispensing,forecourt production,electrolysis,2075,1
+H2 wholesale dispensing,forecourt production,electrolysis,2080,1
+H2 wholesale dispensing,forecourt production,electrolysis,2085,1
+H2 wholesale dispensing,forecourt production,electrolysis,2090,1
+H2 wholesale dispensing,forecourt production,electrolysis,2095,1
+H2 wholesale dispensing,forecourt production,electrolysis,2100,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,1975,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,1990,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2005,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2010,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2015,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2020,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2025,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2030,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2035,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2040,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2045,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2050,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2055,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2060,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2065,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2070,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2075,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2080,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2085,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2090,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2095,1
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,2100,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,1975,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,1990,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2005,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2010,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2015,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2020,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2025,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2030,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2035,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2040,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2045,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2050,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2055,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2060,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2065,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2070,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2075,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2080,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2085,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2090,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2095,1
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,2100,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,1975,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,1990,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2005,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2010,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2015,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2020,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2025,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2030,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2035,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2040,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2045,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2050,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2055,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2060,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2065,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2070,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2075,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2080,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2085,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2090,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2095,1
+H2 wholesale dispensing,H2 delivery,H2 pipeline,2100,1

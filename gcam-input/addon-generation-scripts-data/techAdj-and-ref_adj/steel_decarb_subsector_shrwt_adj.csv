@@ -1,0 +1,11 @@
+﻿# subsector share weight adjustments for advanced technology files for the steel decarbonization scenarios. Need to have scrap as fixed to maintain not too much scrap-based production when all the other share weight changes are implemented as well,,,,,
+region,subsector,share_weight_fillout_value,interp_from,interp_to,interp_fxn
+default,BLASTFUR,0.03,2015,2045,linear
+default,EAF with DRI,1,2015,2045,linear
+default,EAF with scrap,1,2015,2100,fixed
+USA,EAF with DRI,2,2015,2050,linear
+China,BLASTFUR,0.03,2015,2040,linear
+China,EAF with scrap,0.5,2015,2060,linear
+South Korea,EAF with scrap,0.2,2015,2035,linear
+EU-12,EAF with DRI,2,2015,2050,linear
+EU-15,EAF with DRI,2,2015,2050,linear

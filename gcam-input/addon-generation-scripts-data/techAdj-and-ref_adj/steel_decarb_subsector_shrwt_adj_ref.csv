@@ -1,0 +1,17 @@
+﻿# subsector share weight adjustments for the steel decarbonization reference scenario - limiting the BF share weight to 0.5 in regions that have historically low (<0.5) BF share weights,,,,,
+region,subsector,share_weight_fillout_value,interp_from,interp_to,interp_fxn
+USA,BLASTFUR,0.5,2015,2050,linear
+Africa_Eastern,BLASTFUR,0.5,2015,2050,linear
+Africa_Northern,BLASTFUR,0.5,2015,2050,linear
+Africa_Western,BLASTFUR,0.5,2015,2050,linear
+Central America and Caribbean,BLASTFUR,0.5,2015,2050,linear
+Colombia,BLASTFUR,0.5,2015,2050,linear
+Europe_Non_EU,BLASTFUR,0.5,2015,2050,linear
+European Free Trade Association,BLASTFUR,0.5,2015,2050,linear
+Mexico,BLASTFUR,0.5,2015,2050,linear
+Middle East,BLASTFUR,0.5,2015,2050,linear
+Pakistan,BLASTFUR,0.5,2015,2050,linear
+South America_Northern,BLASTFUR,0.5,2015,2050,linear
+South America_Southern,BLASTFUR,0.5,2015,2050,linear
+South Asia,BLASTFUR,0.5,2015,2050,linear
+Southeast Asia,BLASTFUR,0.5,2015,2050,linear

@@ -1,0 +1,136 @@
+﻿# technology share weight adjustments for advanced technology files for the steel decarbonization scenarios,,,,
+region,year,subsector,technology,share_weight
+global_tech,2020,EAF with DRI,EAF with DRI CCS,0.016129032
+global_tech,2025,EAF with DRI,EAF with DRI CCS,0.096774194
+global_tech,2030,EAF with DRI,EAF with DRI CCS,0.177419355
+global_tech,2035,EAF with DRI,EAF with DRI CCS,0.258064516
+global_tech,2040,EAF with DRI,EAF with DRI CCS,0.338709677
+global_tech,2045,EAF with DRI,EAF with DRI CCS,0.419354839
+global_tech,2050,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2055,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2060,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2065,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2070,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2075,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2080,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2085,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2090,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2095,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2100,EAF with DRI,EAF with DRI CCS,0.5
+global_tech,2025,BLASTFUR,BLASTFUR with hydrogen,0.01
+global_tech,2030,BLASTFUR,BLASTFUR with hydrogen,0.04
+global_tech,2035,BLASTFUR,BLASTFUR with hydrogen,0.125
+global_tech,2040,BLASTFUR,BLASTFUR with hydrogen,0.333333
+global_tech,2045,BLASTFUR,BLASTFUR with hydrogen,0.416666666
+global_tech,2050,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2055,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2060,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2065,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2070,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2075,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2080,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2085,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2090,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2095,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2100,BLASTFUR,BLASTFUR with hydrogen,0.5
+global_tech,2025,BLASTFUR,BLASTFUR CCS,0.01
+global_tech,2030,BLASTFUR,BLASTFUR CCS,0.04
+global_tech,2035,BLASTFUR,BLASTFUR CCS,0.125
+global_tech,2040,BLASTFUR,BLASTFUR CCS,0.333333
+global_tech,2045,BLASTFUR,BLASTFUR CCS,0.416666666
+global_tech,2050,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2055,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2060,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2065,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2070,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2075,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2080,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2085,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2090,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2095,BLASTFUR,BLASTFUR CCS,0.5
+global_tech,2100,BLASTFUR,BLASTFUR CCS,0.5
+China,2020,EAF with DRI,Hydrogen-based DRI,0
+China,2025,EAF with DRI,Hydrogen-based DRI,0.083333333
+China,2030,EAF with DRI,Hydrogen-based DRI,0.166666667
+China,2035,EAF with DRI,Hydrogen-based DRI,0.25
+China,2040,EAF with DRI,Hydrogen-based DRI,0.333333333
+China,2045,EAF with DRI,Hydrogen-based DRI,0.416666667
+China,2050,EAF with DRI,Hydrogen-based DRI,0.5
+China,2055,EAF with DRI,Hydrogen-based DRI,0.5
+China,2060,EAF with DRI,Hydrogen-based DRI,0.5
+China,2065,EAF with DRI,Hydrogen-based DRI,0.5
+China,2070,EAF with DRI,Hydrogen-based DRI,0.5
+China,2075,EAF with DRI,Hydrogen-based DRI,0.5
+China,2080,EAF with DRI,Hydrogen-based DRI,0.5
+China,2085,EAF with DRI,Hydrogen-based DRI,0.5
+China,2090,EAF with DRI,Hydrogen-based DRI,0.5
+China,2095,EAF with DRI,Hydrogen-based DRI,0.5
+China,2100,EAF with DRI,Hydrogen-based DRI,0.5
+India,2020,BLASTFUR,Biomass-based,0.001612903
+India,2025,BLASTFUR,Biomass-based,0.009
+India,2030,BLASTFUR,Biomass-based,0.01
+India,2035,BLASTFUR,Biomass-based,0.01
+India,2040,BLASTFUR,Biomass-based,0.01
+India,2045,BLASTFUR,Biomass-based,0.01
+India,2050,BLASTFUR,Biomass-based,0.01
+India,2055,BLASTFUR,Biomass-based,0.01
+India,2060,BLASTFUR,Biomass-based,0.01
+India,2065,BLASTFUR,Biomass-based,0.01
+India,2070,BLASTFUR,Biomass-based,0.01
+India,2075,BLASTFUR,Biomass-based,0.01
+India,2080,BLASTFUR,Biomass-based,0.01
+India,2085,BLASTFUR,Biomass-based,0.01
+India,2090,BLASTFUR,Biomass-based,0.01
+India,2095,BLASTFUR,Biomass-based,0.01
+India,2100,BLASTFUR,Biomass-based,0.01
+South Korea,2020,BLASTFUR,BLASTFUR CCS,0
+South Korea,2025,BLASTFUR,BLASTFUR CCS,0.167
+South Korea,2030,BLASTFUR,BLASTFUR CCS,0.33
+South Korea,2035,BLASTFUR,BLASTFUR CCS,0.5
+South Korea,2040,BLASTFUR,BLASTFUR CCS,0.667
+South Korea,2045,BLASTFUR,BLASTFUR CCS,0.833
+South Korea,2050,BLASTFUR,BLASTFUR CCS,1
+South Korea,2055,BLASTFUR,BLASTFUR CCS,1
+South Korea,2060,BLASTFUR,BLASTFUR CCS,1
+South Korea,2065,BLASTFUR,BLASTFUR CCS,1
+South Korea,2070,BLASTFUR,BLASTFUR CCS,1
+South Korea,2075,BLASTFUR,BLASTFUR CCS,1
+South Korea,2080,BLASTFUR,BLASTFUR CCS,1
+South Korea,2085,BLASTFUR,BLASTFUR CCS,1
+South Korea,2090,BLASTFUR,BLASTFUR CCS,1
+South Korea,2095,BLASTFUR,BLASTFUR CCS,1
+South Korea,2100,BLASTFUR,BLASTFUR CCS,1
+South Korea,2020,EAF with DRI,EAF with DRI CCS,0
+South Korea,2025,EAF with DRI,EAF with DRI CCS,0.167
+South Korea,2030,EAF with DRI,EAF with DRI CCS,0.33
+South Korea,2035,EAF with DRI,EAF with DRI CCS,0.5
+South Korea,2040,EAF with DRI,EAF with DRI CCS,0.667
+South Korea,2045,EAF with DRI,EAF with DRI CCS,0.833
+South Korea,2050,EAF with DRI,EAF with DRI CCS,1
+South Korea,2055,EAF with DRI,EAF with DRI CCS,1
+South Korea,2060,EAF with DRI,EAF with DRI CCS,1
+South Korea,2065,EAF with DRI,EAF with DRI CCS,1
+South Korea,2070,EAF with DRI,EAF with DRI CCS,1
+South Korea,2075,EAF with DRI,EAF with DRI CCS,1
+South Korea,2080,EAF with DRI,EAF with DRI CCS,1
+South Korea,2085,EAF with DRI,EAF with DRI CCS,1
+South Korea,2090,EAF with DRI,EAF with DRI CCS,1
+South Korea,2095,EAF with DRI,EAF with DRI CCS,1
+South Korea,2100,EAF with DRI,EAF with DRI CCS,1
+South Korea,2020,EAF with DRI,Hydrogen-based DRI,0
+South Korea,2025,EAF with DRI,Hydrogen-based DRI,5
+South Korea,2030,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2035,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2040,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2045,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2050,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2055,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2060,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2065,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2070,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2075,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2080,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2085,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2090,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2095,EAF with DRI,Hydrogen-based DRI,10
+South Korea,2100,EAF with DRI,Hydrogen-based DRI,10
