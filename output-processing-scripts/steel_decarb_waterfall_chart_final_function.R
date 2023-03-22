@@ -255,11 +255,11 @@ results_final$`Mitigation measure` <- factor(results_final$`Mitigation measure`,
 
 reduction_colors <- c( "Energy efficiency contribution" = "gray50",
                        "Material efficiency contribution" = "darkturquoise",
-                       "Price-induced contribution" = "forestgreen",
+                       "Price-induced contribution" = "#33A02C",
                        "High scrap use contribution" = "#756bb1",
                        "H2 contribution" = "darkgoldenrod3",
-                       "CCUS contribution" ="dodgerblue3",
-                       "1p5 emissions" = "firebrick3")
+                       "CCUS contribution" ="#3182bd",
+                       "1p5 emissions" = "#E31A1C")
 
 for (i in regions_aggregated) {
   ggplot(data=filter(results_final, region == i, `Mitigation measure` != "Ref emissions"),
@@ -322,7 +322,7 @@ return_plot <- waterfall(select(waterfall_data_global %>% mutate(reduction = red
           total_rect_text_color = "black", total_axis_text = "1p5 emissions",
           fill_colours = c(reduction_colors["1p5 emissions"], waterfall_data$color[2:7]), 
           fill_by_sign = FALSE, rect_text_labels = c("", paste0(round(waterfall_data$share[2:7]*100), "%")), 
-          total_rect_text = "", rect_text_size = 1.6)+
+          total_rect_text = "", rect_text_size = 1.8)+
   theme_minimal()+
   labs(title = "Global contributions to emissions reductions from mitigation measures in 2050",
        y= bquote(Gt~CO[2]), x=" ")+
@@ -337,7 +337,7 @@ return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", 
   scale_y_continuous(limits = c(0, NA)) +
   scale_color_manual(labels = c("Reference","Material efficiency","Material efficiency and price increase") , 
                      values = c("Ref" = "#E31A1C", "ref_MEF"="#3182bd", "1p5"="#33A02C"),
-                     name = "Scenario") +
+                     name = "") +
   plot_theme
 
 return(list(return_plot, return_plot_MEF))
