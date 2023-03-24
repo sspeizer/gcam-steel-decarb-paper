@@ -184,6 +184,12 @@ scenario_colors_no_new_EU_gas <- c("1p5" = "#33A02C",
                                    "1p5 no CCS" = "334FFF",
                                    "1p5 no new EU gas" = "#3182bd")
 
+scenario_colors_all_runs <- c("Ref" = "#E31A1C", "Ref EE" = "tomato", "Ref MEF" = "salmon3", "Ref recyc" = "#FB9A99",
+                              "Ref EE+MEF+recyc" = "pink", "1p5" = "#33A02C",
+                              "1p5 no steel strategies" = "palegreen3", "1p5 EE" = "seagreen3", "1p5 EE+MEF" = "seagreen", "1p5 EE+MEF+recyc" = "darkolivegreen", 
+                              "1p5 EE+MEF+recyc+H2" = "olivedrab3", "1p5 EE+MEF+recyc+CCS" = "darkolivegreen2",  
+                              "1p5 no CCS" = "#756bb1", "1p5 delay" = "#3182bd", "1p5 delay no CCS" = "skyblue")
+
 # tech_colors  <- c("BF-CCUS" = "#FB9A99",
 #                   "BF-BOF" = "#E31A1C",
 #                   "EAF-scrap" = "#756bb1",
@@ -260,6 +266,13 @@ scenarios = c("Reference_1","1p5C_12", "1p5C_13","1p5C_delay_14")
 scenario_labels = c("Ref","1p5", "1p5 no CCS", "1p5 delay")
 scenarios_no_new_EU_gas = c("1p5C_12", "1p5C_16_no_new_EU_gas_DRI", "1p5C_13")
 scenario_labels_no_new_EU_gas = c("1p5", "1p5 no new EU gas", "1p5 no CCS")
+scenarios_all_sel <- c("Reference_1", "Reference_2", "Reference_3", "Reference_4", "Reference_5", "1p5C_12", 
+                       "1p5C_6", "1p5C_7", "1p5C_8", "1p5C_9", "1p5C_10", "1p5C_11", 
+                       "1p5C_13", "1p5C_delay_14", "1p5C_delay_15")
+scenario_labels_all_sel <- c("Ref", "Ref EE", "Ref MEF", "Ref recyc", "Ref EE+MEF+recyc", "1p5",
+                             "1p5 no steel strategies", "1p5 EE", "1p5 EE+MEF", "1p5 EE+MEF+recyc", "1p5 EE+MEF+recyc+H2", 
+                             "1p5 EE+MEF+recyc+CCS",  
+                             "1p5 no CCS", "1p5 delay", "1p5 delay no CCS")
 
 # GLOBAL NET CO2 EMISSIONS --------------------
 # calculate net CO2 emissions 
@@ -1665,6 +1678,8 @@ write.csv(ironsteel_production_tech_eu_gas_sens_share_data, paste0(results_dir, 
 
 # OTHER NON-MAIN RUNS ---------------------------
 # also want to look at production by tech and steel emissions for the other runs
+
+# load and prep data
 ironsteel_production_tech_all_runs <- 
   readr::read_csv(paste0(run_dir, "/queryoutall_ironsteel_production_tech.csv"), 
                   skip = 1)
@@ -1673,4 +1688,54 @@ ironsteel_production_tech_all_runs <- ironsteel_production_tech_all_runs %>%
   parse_output_scenario %>% 
   add_global_sum() %>%
   aggregate_regions(region_mapping, colname = "steel_region")
+
+CO2_emissions_sector_nobio_all_runs <- 
+  readr::read_csv(paste0(run_dir, "/queryoutall_CO2_emissions_sector_nobio_v2.csv"), 
+                  skip = 1)
+
+CO2_emissions_sector_nobio_all_runs <- CO2_emissions_sector_nobio_all_runs %>% 
+  parse_output_scenario %>% 
+  add_global_sum()%>% 
+  dplyr::mutate(value = if_else(Units == "MTC", value * C_to_CO2, value),
+                Units = if_else(Units == "MTC", "MTCO2", Units)) %>% 
+  aggregate_regions(region_mapping, colname = "steel_region")
+
+# production by tech
+ironsteel_production_tech_all_runs$scenario <- factor(ironsteel_production_tech_all_runs$scenario, 
+                                                      levels = scenarios_all_sel, labels=scenario_labels_all_sel)
+ironsteel_production_tech_all_runs$technology <- factor(ironsteel_production_tech_all_runs$technology, 
+                                               levels = unique(ironsteel_production_tech_all_runs$technology),
+                                               labels = c('BF-biomass',
+                                                          'BF-BOF','BF-CCUS','BF-H2','DRI-EAF-Fossil','DRI-EAF-CCUS',
+                                                          'EAF-scrap','DRI-EAF-H2'))
+
+production_tech_global_all_runs <- ggplot(data=filter(ironsteel_production_tech_all_runs, region == "Global",
+                                             year %in% c(2030, 2050), scenario != "NA"),
+                                 aes(x=scenario, y=value, fill=technology)) +
+  geom_col(width = 0.5)+
+  facet_wrap(~year, nrow = 1) +
+  labs(title = "Global steel production by technology", x="", y="Mt") +
+  scale_fill_manual(values = tech_colors, name = "Technology")+
+  plot_theme 
+
+# steel CO2 emissions
+CO2_emissions_sector_nobio_all_runs$scenario <- factor(CO2_emissions_sector_nobio_all_runs$scenario,
+                                                       levels = scenarios_all_sel, labels=scenario_labels_all_sel)
+
+ironsteel_CO2_all_runs <- filter(CO2_emissions_sector_nobio_all_runs, sector=="iron and steel", scenario!="NA")
+
+steel_CO2_total_global_all_runs <- ggplot(data=filter(ironsteel_CO2_all_runs, region == "Global", year %in% plot_years, scenario!="NA") %>%
+                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b")),
+                                 aes(x=year, y=value/1000, color=scenario, size = line_width)) +
+  geom_line() +
+  labs(title = bquote(bold(Global~steel~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
+  scale_color_manual(values = scenario_colors_all_runs, name = "Scenario") +
+  scale_size_manual(values = c(1.5, 0.5), guide = "none") + 
+  plot_theme
+
+# combine and save
+plot_grid(production_tech_global_all_runs, steel_CO2_total_global_all_runs,
+          ncol = 1, nrow = 2, labels = c("a", "b"), rel_heights = c(1.5, 1))
+ggsave(paste0(fig_dir, "/all_scenarios_combined_fig.png"),  
+       height = 12, width = 12, units = "in")
 
