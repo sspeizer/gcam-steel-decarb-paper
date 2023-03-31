@@ -100,7 +100,8 @@ plot_theme <- theme_bw() +
   theme(legend.text = element_text(size = 15, vjust = 0.5)) +
   theme(legend.title = element_text(size = 15, vjust = 2)) +
   theme(axis.text = element_text(size = 15)) +
-  theme(axis.title = element_text(size = 15, face = "bold")) +
+  #theme(axis.title = element_text(size = 15, face = "bold")) +
+  theme(axis.title = element_text(size = 15)) +
   theme(plot.title = element_text(size = 15, face = "bold", vjust = 1)) +
   theme(plot.subtitle = element_text(size = 15, face = "bold", vjust = 1))+
   theme(strip.text = element_text(size = 15))+
@@ -330,7 +331,8 @@ return_plot <- waterfall(select(waterfall_data_global %>% mutate(reduction = red
   theme(text = element_text(size=18))
 
 # also get plot to return for MEF
-return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", year %in% c(2015:2050), scenario=="ref_MEF" | scenario=="Ref"|scenario=="1p5"),
+return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", year %in% c(2015:2050), scenario=="ref_MEF" | scenario=="Ref"|scenario=="1p5") %>%
+                            mutate(scenario = factor(scenario, levels = c("1p5", "ref_MEF", "Ref"))),
                           aes(x=year, y=value, color = scenario)) +
   geom_line(size = 1.2) +
   labs(title = "Global steel production", x="", y="Mt") +

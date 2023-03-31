@@ -23,8 +23,7 @@ options(scipen=999)
 # set directories
 run_dir <- "C:/Users/spei632/Documents/GCAM_industry/data/steel_decarb/steel_decarb_run_9-30-22/"
 fig_dir <- paste0(run_dir,"/figures_till_2050_paper")
-#fig_dir <- paste0(run_dir,"/figures_till_2100")
-#fig_dir <- paste0(run_dir,"/figures_no_EU_new_gas")
+#fig_dir <- paste0(run_dir,"/figures_till_2100_paper")
 if (!dir.exists(fig_dir)) {dir.create(fig_dir)}
 results_dir <- fig_dir
 setwd("C:/Users/spei632/Documents/GCAM_industry/R/steel_decarb_paper")
@@ -113,7 +112,8 @@ plot_theme <- theme_bw() +
   theme(legend.text = element_text(size = 15, vjust = 0.5)) +
   theme(legend.title = element_text(size = 15, vjust = 2)) +
   theme(axis.text = element_text(size = 15)) +
-  theme(axis.title = element_text(size = 15, face = "bold")) +
+  #theme(axis.title = element_text(size = 15, face = "bold")) +
+  theme(axis.title = element_text(size = 15)) +
   theme(plot.title = element_text(size = 15, face = "bold", vjust = 1)) +
   theme(plot.subtitle = element_text(size = 15, face = "bold", vjust = 1))+
   theme(strip.text = element_text(size = 15))+
@@ -264,8 +264,8 @@ electricity_tech_pal <- c("biomass" = "#33A02C", "biomass (CCS)" = "lightgreen",
 # SET SCENARIO LABELS ----------
 scenarios = c("Reference_1","1p5C_12", "1p5C_13","1p5C_delay_14")
 scenario_labels = c("Ref","1p5", "1p5 no CCS", "1p5 delay")
-scenarios_no_new_EU_gas = c("1p5C_12", "1p5C_16_no_new_EU_gas_DRI", "1p5C_13")
-scenario_labels_no_new_EU_gas = c("1p5", "1p5 no new EU gas", "1p5 no CCS")
+scenarios_no_new_EU_gas = c("Reference_1","1p5C_12", "1p5C_16_no_new_EU_gas_DRI", "1p5C_13", "1p5C_delay_14")
+scenario_labels_no_new_EU_gas = c("Ref", "1p5", "1p5 no new EU gas", "1p5 no CCS", "1p5 delay")
 scenarios_all_sel <- c("Reference_1", "Reference_2", "Reference_3", "Reference_4", "Reference_5", "1p5C_12", 
                        "1p5C_6", "1p5C_7", "1p5C_8", "1p5C_9", "1p5C_10", "1p5C_11", 
                        "1p5C_13", "1p5C_delay_14", "1p5C_delay_15")
@@ -347,7 +347,7 @@ ggplot(filter(ironsteel_CO2, year%in%pie_years, scenario=="1p5"),
   plot_theme +
   theme(axis.text.x=element_blank()) +
   blank_theme + 
-  labs(title = expression(bold(paste(Regional~contributions~to~total~iron~and~steel~CO[2]~emissions,", 1p5 scenario"))))
+  labs(title = expression(bold(paste(Regional~contributions~to~total~steel~CO[2]~emissions,", 1p5 scenario"))))
 
 ggsave(paste0(fig_dir, "/ironsteel_CO2_pie",  ".png"), height = 6, width = 9, units = "in")
 
@@ -412,7 +412,7 @@ ironsteel_production$scenario <- factor(ironsteel_production$scenario,levels= sc
 ggplot(data=filter(ironsteel_production, year %in% plot_years, scenario=="Ref", region!="Global"),
        aes(x=year, y=value / 1000, fill=region)) +
   geom_area() +
-  labs(title = "Iron and steel production, ref scenario", x="", y="Mt") +
+  labs(title = "Steel production, ref scenario", x="", y="Mt") +
   scale_fill_manual(values = regions, name = "Region")+
   plot_theme 
 ggsave(paste0(fig_dir, "/iron-steel-prod-stacked.png"), height = 6, width = 6, units = "in")
@@ -438,7 +438,7 @@ for (i in regions_aggregated) {
          aes(x=year, y=value, fill=technology)) +
     geom_col()+
     facet_wrap(~scenario, nrow = 1) +
-    labs(title = paste(i, "iron and steel production by technology"), x="", y="Mt") +
+    labs(title = paste(i, "steel production by technology"), x="", y="Mt") +
     scale_fill_manual(values = tech_colors, name = "Technology")+
     plot_theme
   
@@ -451,7 +451,7 @@ production_tech_1p5_regions <- ggplot(data=filter(ironsteel_production_tech,regi
        aes(x=year, y=value, fill=technology)) +
   geom_col()+
   facet_wrap(~region, scale="free") +
-  labs(title = paste("Iron and steel production by technology, 1p5 scenario"), x="", y="Mt") +
+  labs(title = paste("Steel production by technology, 1p5 scenario"), x="", y="Mt") +
   scale_fill_manual(values = tech_colors, name = "Technology")+
   plot_theme
 
@@ -506,7 +506,7 @@ for (i in regions_aggregated) {
                      scenario!="NA"),aes(x=year, y=value, fill=input)) +
     geom_col() +
     facet_wrap(~scenario, nrow = 1) +
-    labs(title = paste(i, "iron and steel energy use by fuel"), x="", y="EJ") +
+    labs(title = paste(i, "steel energy use by fuel"), x="", y="EJ") +
     scale_fill_manual(values = fuel_colors, name = "Fuel") +
     plot_theme
 
@@ -518,7 +518,7 @@ energy_fuel_1p5_regions <- ggplot(data=filter(x, region %in% regions_aggregated,
                    scenario=="1p5"),aes(x=year, y=value, fill=input)) +
   geom_col() +
   facet_wrap(~region, ncol=3, scale="free") +
-  labs(title = paste("Iron and steel energy use by fuel, 1p5 scenario"), x="", y="EJ") +
+  labs(title = paste("Steel energy use by fuel, 1p5 scenario"), x="", y="EJ") +
   scale_fill_manual(values = fuel_colors, name = "Fuel") +
   plot_theme
 ggsave(paste0(fig_dir, "/ironsteel_energy_fuel_all_regions",  ".png"), plot = energy_fuel_1p5_regions, height = 6, width = 10, units = "in")
@@ -641,7 +641,7 @@ for (i in regions_aggregated) {
     scale_fill_manual(values = c("value"="#E31A1C", "total_indirect"="#FB9A99"), labels = c("direct","indirect")) +
     plot_theme +
     geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
-    labs(y=expression(Gt~CO[2]), x = "", title = bquote(bold(.(i)~iron~and~steel~direct~and~indirect~CO[2]~emissions))) +
+    labs(y=expression(Gt~CO[2]), x = "", title = bquote(bold(.(i)~steel~direct~and~indirect~CO[2]~emissions))) +
     theme(legend.title = element_blank())
   ggsave(paste0(fig_dir, "/co2_direct_indirect_1p5_ref_", i, ".png"), height = 6, width = 9, units = "in")
 }
@@ -663,21 +663,23 @@ direct_indirect_CO2_steel_global <- ggplot(data=filter(CO2_dir_indir_emissions_i
 
 # STEEL DIRECT EMISSIONS LINE PLOT ---------------
 for (i in regions_aggregated) {
-  ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region == i, year %in% plot_years, scenario!="NA"),
+  ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region == i, year %in% plot_years, scenario!="NA") %>%
+           mutate(scenario = factor(scenario, levels = rev(scenario_labels))),
          aes(x=year, y=value/1000, color=scenario)) +
     geom_line(size = 1.4) +
-    labs(title = bquote(bold(.(i)~iron~and~steel~direct~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
+    labs(title = bquote(bold(.(i)~steel~direct~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
     scale_color_manual(values = scenario_colors, name = "Scenario") +
     plot_theme
   
   ggsave(paste0(fig_dir, "/ironsteel_direct_co2_emissions_", i, ".png"), height = 6, width = 8, units = "in")
 }
 
-ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region !="Global", region!="ROW", year %in% plot_years, scenario!="NA"),
+ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region !="Global", region!="ROW", year %in% plot_years, scenario!="NA") %>%
+         mutate(scenario = factor(scenario, levels = rev(scenario_labels))),
        aes(x=year, y=value/1000, color=scenario)) +
   geom_line(size = 1.2) +
   facet_wrap(~region, scale="free", ncol=2)+
-  labs(title = expression(bold(Iron~and~steel~direct~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
+  labs(title = expression(bold(Steel~direct~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
   scale_color_manual(values = scenario_colors, name = "Scenario") +
   plot_theme
 
@@ -687,7 +689,8 @@ ironsteel_CO2_data <- filter(CO2_emissions_sector_nobio, sector == "iron and ste
                              region %in% regions_aggregated, year %in% plot_years, scenario!="NA")
 
 # save the global figure for grouped plotting later
-steel_CO2_total_global <- ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region == "Global", year %in% plot_years, scenario!="NA"),
+steel_CO2_total_global <- ggplot(data=filter(CO2_emissions_sector_nobio, sector == "iron and steel", region == "Global", year %in% plot_years, scenario!="NA") %>%
+                                   mutate(scenario = factor(scenario, levels = rev(scenario_labels))),
                                  aes(x=year, y=value/1000, color=scenario)) +
   geom_line(size = 1.4) +
   labs(title = bquote(bold(Global~steel~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
@@ -745,7 +748,7 @@ write.csv(emissions_intensity, paste0(results_dir, "/ironsteel_emissions_intensi
 ggplot(data=emissions_intensity, aes(x=year, y = em_intensity, color=region))+
   geom_line(size = 1) +
   scale_color_manual(values = regions, name = "Region") + 
-  labs(title = expression(bold(Iron~and~steel~CO[2]~emissions~intensity)), x="", y=expression(tCO[2]/tsteel)) +
+  labs(title = expression(bold(Steel~CO[2]~emissions~intensity)), x="", y=expression(tCO[2]/tsteel)) +
   plot_theme 
 ggsave(paste0(results_dir, "/ironsteel_emissions_intensity.png"), height = 6, width = 9, units = "in")
 
@@ -1062,13 +1065,23 @@ cumulative_all_co2_em_sector_assigned_2020to2100 <- all_co2_em_sector_assigned %
   mutate(cum_Gt_CO2e = cumsum(Gt_CO2e)) %>%
   ungroup() 
 
-# make bar chart of cumulative emissions in max year
+# make bar chart of cumulative emissions in 2050 and 2100
+# total_CO2_emissions_sector_global_cum_plot <- ggplot(cumulative_all_co2_em_sector_assigned_2020to2100 %>% 
+#                                        filter(year == max(plot_years) & region == "Global" & cum_Gt_CO2e != 0),
+#                                      aes(x = scenario, y = cum_Gt_CO2e, fill = sector)) + 
+#   geom_col() + 
+#   scale_fill_manual(values = sector_colors_CO2, name = "Sector", drop = TRUE, limits = force) + 
+#   labs(title = paste0("Cumulative emissions,\n2020-",max(plot_years)), 
+#        x="", y=bquote(Gt~CO[2])) +
+#   plot_theme +
+#   theme(axis.text.x= element_text(angle=70))
 total_CO2_emissions_sector_global_cum_plot <- ggplot(cumulative_all_co2_em_sector_assigned_2020to2100 %>% 
-                                       filter(year == max(plot_years) & region == "Global" & cum_Gt_CO2e != 0),
-                                     aes(x = scenario, y = cum_Gt_CO2e, fill = sector)) + 
+                                                       filter(year %in% c(2050, 2100) & region == "Global" & cum_Gt_CO2e != 0),
+                                                     aes(x = scenario, y = cum_Gt_CO2e, fill = sector)) + 
   geom_col() + 
+  facet_wrap(~year, ncol = 2) +
   scale_fill_manual(values = sector_colors_CO2, name = "Sector", drop = TRUE, limits = force) + 
-  labs(title = paste0("Cumulative emissions,\n2020-",max(plot_years)), 
+  labs(title = "Cumulative emissions", 
        x="", y=bquote(Gt~CO[2])) +
   plot_theme +
   theme(axis.text.x= element_text(angle=70))
@@ -1248,13 +1261,14 @@ write.csv(ironsteel_h2_use_global_1p5_Mt, paste0(results_dir, "/ironsteel_h2_use
 
 # IPCC COMPARISON -----------------------
 ## Comparison to IPCC AR6 scenario categories -----------
+# prep temp data
+global_mean_temp <- unique(global_mean_temp)
+global_mean_temp$scenario <- factor(global_mean_temp$scenario, 
+                                    levels = scenarios, 
+                                    labels = scenario_labels)
+
 # calculate the values for the comparison to the IPCC scenarios, if we are looking at results to 2100 only
 if (2100 %in% plot_years) {
-  # prep temp data
-  global_mean_temp <- unique(global_mean_temp)
-  global_mean_temp$scenario <- factor(global_mean_temp$scenario, 
-                                      levels = scenarios, 
-                                      labels = scenario_labels)
   
   # perform for both 1p5 and 1p5 delay
   ipcc_comparison_final <- c()
@@ -1541,6 +1555,18 @@ CO2_GHG_plot_AR6 <- plot_grid(CO2_plot_AR6, GHG_plot_AR6,
 ggsave(paste0(fig_dir, "/co2_ghg_emis_total_global_IPCC_comp.png"), plot = CO2_GHG_plot_AR6 , 
        height = 6, width = 11, units = "in")
 
+# TEMPERATURE ---------------
+temp_plot <- ggplot(global_mean_temp %>% filter(year >= 2005 & !is.na(scenario)) %>%
+                      mutate(scenario = factor(scenario, levels = rev(scenario_labels))),
+                    aes(x = year, y = value, color = scenario)) + 
+  geom_line(size = 1) + 
+  scale_color_manual(values = scenario_colors, name = "Scenario") + 
+  labs(title ="Global mean temperature increase",
+       x="", y="degrees C") +
+  plot_theme
+
+ggsave(paste0(fig_dir, "/temp.png"), plot = temp_plot, 
+       height = 6, width = 8, units = "in")
 
 # COALESCED FIGURES FOR PAPER -----------------------
 
@@ -1555,8 +1581,7 @@ steel_CO2_plots_1 <- plot_grid(steel_CO2_total_global + theme(legend.position = 
                                steel_CO2_total_cum_global,
                                ncol = 2, nrow = 1, align = "hv", axis = "tb",
                                rel_widths = c(1, 1), labels = c("a", "b"), label_size = 13)
-steel_CO2_plots_2 <- plot_grid(direct_indirect_CO2_steel_global, 
-                               steel_CO2_share,
+steel_CO2_plots_2 <- plot_grid(steel_CO2_share, direct_indirect_CO2_steel_global, 
                                ncol = 2, nrow = 1, align = "hv", axis = "tb", 
                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
 plot_grid(steel_CO2_plots_1, steel_CO2_plots_2, 
@@ -1623,13 +1648,38 @@ CO2_GHG_plot_AR6_2 <- plot_grid(CO2_plot_AR6, GHG_plot_AR6,
 
 CO2_sector_global_combined_plot <- plot_grid(total_CO2_emissions_sector_global_plot + theme(legend.position = "none"), 
                                              total_CO2_emissions_sector_global_cum_plot,
-                                             nrow = 1, ncol = 2, rel_widths = c(1.7, 1),
+                                             nrow = 1, ncol = 2, rel_widths = c(1.3, 1),
                                              labels = c("c", "d"), label_size = 13, align = "h", axis = "b")
 
 plot_grid(CO2_GHG_plot_AR6_2, CO2_sector_global_combined_plot, nrow = 2, ncol = 1)
 ggsave(paste0(fig_dir, "/main_fig_CO2_GHG_emissions_AR6_sector.png"),  
-       height = 13, width = 12, units = "in")
+       height = 13, width = 13, units = "in")
 
+## Regional production by technology and energy use by fuel for all main scenarios --------------
+for (i in regions_aggregated) {
+  prod_plot <- ggplot(data=filter(ironsteel_production_tech, region == i,
+                     year %in% plot_years, scenario != "NA"),
+         aes(x=year, y=value, fill=technology)) +
+    geom_col()+
+    facet_wrap(~scenario, nrow = 1) +
+    labs(title = paste(i, "steel production by technology"), x="", y="Mt") +
+    scale_fill_manual(values = tech_colors, name = "Technology")+
+    plot_theme
+  
+  energy_plot <- ggplot(data=filter(x, region == i, year %in% plot_years,sector == "iron and steel", 
+                     scenario!="NA"),aes(x=year, y=value, fill=input)) +
+    geom_col() +
+    facet_wrap(~scenario, nrow = 1) +
+    labs(title = paste(i, "steel energy use by fuel"), x="", y="EJ") +
+    scale_fill_manual(values = fuel_colors, name = "Fuel") +
+    plot_theme
+  
+  plot_grid(prod_plot, energy_plot, nrow = 2, ncol = 1,
+            labels = c("a", "b"), label_size = 13, align = "hv", axis = "lr")
+  
+  ggsave(paste0(fig_dir, "/ironsteel_comb_prod_tech_energy_fuel_", i, ".png"), height = 12, width = 12, units = "in")
+  
+}
 
 # NO NEW EU GAS SENSITIVITY ---------------------
 # re-read in the raw data for steel production by tech
@@ -1656,11 +1706,11 @@ ggplot(data=filter(ironsteel_production_tech_eu_gas_sens, region == "Europe",
        aes(x=year, y=value, fill=technology)) +
   geom_col()+
   facet_wrap(~scenario, nrow = 1) +
-  labs(title = "Europe iron and steel production by technology", x="", y="Mt") +
+  labs(title = "Europe steel production by technology", x="", y="Mt") +
   scale_fill_manual(values = tech_colors, name = "Technology")+
   plot_theme
 
-ggsave(paste0(fig_dir, "/ironsteel_production_tech_Europe_no_new_EU_gas.png"), height = 6, width = 10, units = "in")
+ggsave(paste0(fig_dir, "/ironsteel_production_tech_Europe_no_new_EU_gas.png"), height = 6, width = 14, units = "in")
 
 # save data to csv 
 ironsteel_production_tech_eu_gas_sens_data <- filter(ironsteel_production_tech_eu_gas_sens, region %in% regions_aggregated, 
@@ -1676,6 +1726,56 @@ ironsteel_production_tech_eu_gas_sens_share_data <- ironsteel_production_tech_eu
 
 write.csv(ironsteel_production_tech_eu_gas_sens_share_data, paste0(results_dir, "/ironsteel_production_tech_eu_gas_sens_share_data.csv"))
 
+# get energy use data
+industry_energy_tech_fuel_eu_gas_sens <- 
+  readr::read_csv(paste0(run_dir, "/queryoutall_industry_energy_tech_fuel.csv"), 
+                  skip = 1)
+
+industry_energy_tech_fuel_eu_gas_sens <- industry_energy_tech_fuel_eu_gas_sens %>% 
+  parse_output_scenario %>% 
+  add_global_sum() %>%
+  aggregate_regions(region_mapping, colname = "steel_region")
+
+industry_energy_tech_fuel_eu_gas_sens$scenario <- factor(industry_energy_tech_fuel_eu_gas_sens$scenario,
+                                                         levels = scenarios_no_new_EU_gas, 
+                                                         labels=scenario_labels_no_new_EU_gas)
+
+x_eu_gas_sens <- filter(industry_energy_tech_fuel_eu_gas_sens, sector=="iron and steel")
+
+# rename fuels to recognizable names, rename fuels with CCS 
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "delivered coal", "coal", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "delivered biomass", "biomass", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "elect_td_ind", "electricity", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "H2 industrial", "hydrogen", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "refined liquids industrial", "refined liquids", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = if_else(input == "wholesale gas", "gas", input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input2 = if_else((technology == "BLASTFUR CCS" & input != "biomass" & input != "electricity" & input != "hydrogen")|
+                                     (technology=="EAF with DRI CCS" & input != "biomass" & input != "electricity" & input != "hydrogen"), 
+                                   paste0(input, " with CCS"), input))
+x_eu_gas_sens <- x_eu_gas_sens %>% mutate(input = input2)
+
+
+prod_plot <- ggplot(data=filter(ironsteel_production_tech_eu_gas_sens, region == "Europe",
+                                year %in% plot_years, scenario != "NA"),
+                    aes(x=year, y=value, fill=technology)) +
+  geom_col()+
+  facet_wrap(~scenario, nrow = 1) +
+  labs(title = paste("Europe steel production by technology"), x="", y="Mt") +
+  scale_fill_manual(values = tech_colors, name = "Technology")+
+  plot_theme
+
+energy_plot <- ggplot(data=filter(x_eu_gas_sens, region == "Europe", year %in% plot_years,sector == "iron and steel", 
+                                  scenario!="NA"),aes(x=year, y=value, fill=input)) +
+  geom_col() +
+  facet_wrap(~scenario, nrow = 1) +
+  labs(title = paste("Europe steel energy use by fuel"), x="", y="EJ") +
+  scale_fill_manual(values = fuel_colors, name = "Fuel") +
+  plot_theme
+
+plot_grid(prod_plot, energy_plot, nrow = 2, ncol = 1,
+          labels = c("a", "b"), label_size = 13, align = "hv", axis = "lr")
+
+ggsave(paste0(fig_dir, "/ironsteel_comb_prod_tech_energy_fuel_Europe_no_new_EU_gas.png"), height = 12, width = 14, units = "in")
 # OTHER NON-MAIN RUNS ---------------------------
 # also want to look at production by tech and steel emissions for the other runs
 
@@ -1718,6 +1818,11 @@ production_tech_global_all_runs <- ggplot(data=filter(ironsteel_production_tech_
   scale_fill_manual(values = tech_colors, name = "Technology")+
   plot_theme 
 
+ironsteel_production_tech_all_runs_wshare <- ironsteel_production_tech_all_runs %>%
+  group_by(scenario, region, sector, output, Units, year) %>%
+  mutate(share = value / sum(value)) %>%
+  ungroup()
+
 # steel CO2 emissions
 CO2_emissions_sector_nobio_all_runs$scenario <- factor(CO2_emissions_sector_nobio_all_runs$scenario,
                                                        levels = scenarios_all_sel, labels=scenario_labels_all_sel)
@@ -1725,7 +1830,8 @@ CO2_emissions_sector_nobio_all_runs$scenario <- factor(CO2_emissions_sector_nobi
 ironsteel_CO2_all_runs <- filter(CO2_emissions_sector_nobio_all_runs, sector=="iron and steel", scenario!="NA")
 
 steel_CO2_total_global_all_runs <- ggplot(data=filter(ironsteel_CO2_all_runs, region == "Global", year %in% plot_years, scenario!="NA") %>%
-                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b")),
+                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b"),
+                                                   scenario = factor(scenario, levels = rev(scenario_labels_all_sel))),
                                  aes(x=year, y=value/1000, color=scenario, size = line_width)) +
   geom_line() +
   labs(title = bquote(bold(Global~steel~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
@@ -1738,4 +1844,20 @@ plot_grid(production_tech_global_all_runs, steel_CO2_total_global_all_runs,
           ncol = 1, nrow = 2, labels = c("a", "b"), rel_heights = c(1.5, 1))
 ggsave(paste0(fig_dir, "/all_scenarios_combined_fig.png"),  
        height = 12, width = 12, units = "in")
+
+write.csv(ironsteel_production_tech_all_runs_wshare, paste0(results_dir,"/ironsteel_production_tech_all_runs_wshare.csv"))
+write.csv(ironsteel_CO2_all_runs, paste0(results_dir,"/ironsteel_CO2_all_runs.csv"))
+
+# get cumulative emissions
+cumulative_ironsteel_co2_2020to2100_all_runs <- ironsteel_CO2_all_runs %>%
+  group_by(scenario, region) %>%
+  complete(year = seq(2010, 2100)) %>%
+  mutate(value = na.approx(value),
+         value = value / 1000,
+         Units = "GtCO2") %>%
+  filter(year >= 2020) %>%
+  mutate(cum_value = cumsum(value)) %>%
+  ungroup() 
+
+write.csv(cumulative_ironsteel_co2_2020to2100_all_runs, paste0(results_dir,"/ironsteel_cumulative_CO2_emissions_all_runs.csv"))
 
