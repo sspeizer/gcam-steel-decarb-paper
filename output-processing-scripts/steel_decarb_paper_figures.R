@@ -227,6 +227,9 @@ mat_eff_colors <- c("Direct reuse" = "#33A02C" ,
 regions <- c("China" = "lightsalmon4","EU"="#FCD581","India"="mediumseagreen",
              "Japan"="#9ecae1","ROW"="mediumpurple","South Korea"="plum",
              "US"="lightpink")
+regions_w_global <- c("China" = "lightsalmon4","EU"="#FCD581","India"="mediumseagreen",
+             "Japan"="#9ecae1","ROW"="mediumpurple","South Korea"="plum",
+             "US"="lightpink", "Global" = "gray57")
 
 fuel_colors <- c("biomass" = "#33A02C", "coal" = "gray27",
                  "coal with CCUS" = "gray57", "electricity" = "#756bb1","gas" = "#3182bd", 
@@ -420,9 +423,10 @@ mat_eff_bar <- ggplot(filter(mat_eff),
   geom_text(aes(label = label_num), position = position_stack(vjust = 0.5)) +
   blank_theme
 
-# REFERENCE STEEL PRODUCTION STACKED LINE CHART ---------------
+# STEEL PRODUCTION STACKED LINE CHART ---------------
 ironsteel_production$scenario <- factor(ironsteel_production$scenario,levels= scenarios, labels = scenario_labels)
 
+# reference only
 ggplot(data=filter(ironsteel_production, year %in% plot_years, scenario=="Ref", region!="Global"),
        aes(x=year, y=value / 1000, fill=region)) +
   geom_area() +
@@ -430,6 +434,16 @@ ggplot(data=filter(ironsteel_production, year %in% plot_years, scenario=="Ref", 
   scale_fill_manual(values = regions, name = "Region")+
   plot_theme 
 ggsave(paste0(fig_dir, "/iron-steel-prod-stacked.png"), height = 6, width = 6, units = "in")
+
+# reference and 1.5
+ggplot(data=filter(ironsteel_production, year %in% plot_years, scenario %in% c("Ref", "1p5"), region!="Global"),
+       aes(x=year, y=value / 1000, fill=region)) +
+  geom_area() +
+  facet_wrap(~scenario, nrow = 1) + 
+  labs(title = "Steel production by region", x="", y="Mt") +
+  scale_fill_manual(values = regions, name = "Region")+
+  plot_theme 
+ggsave(paste0(fig_dir, "/iron-steel-prod-stacked_ref_1p5.png"), height = 6, width = 10, units = "in")
 
 
 ironsteel_production_data <- filter(ironsteel_production, 
@@ -759,12 +773,12 @@ emissions_intensity <- emissions_intensity %>%
 
 write.csv(emissions_intensity, paste0(results_dir, "/ironsteel_emissions_intensity.csv"))
 
-ggplot(data=emissions_intensity, aes(x=year, y = em_intensity, color=region))+
+emis_intensity_fig <- ggplot(data=emissions_intensity, aes(x=year, y = em_intensity, color=region))+
   geom_line(size = 1) +
-  scale_color_manual(values = regions, name = "Region") + 
-  labs(title = expression(bold(Steel~CO[2]~emissions~intensity)), x="", y=expression(tCO[2]/tsteel)) +
+  scale_color_manual(values = regions_w_global, name = "Region") + 
+  labs(title = expression(bold(Steel~CO[2]~emissions~"intensity, 1p5 scenario")), x="", y=expression(t~CO[2]/t~steel)) +
   plot_theme 
-ggsave(paste0(results_dir, "/ironsteel_emissions_intensity.png"), height = 6, width = 9, units = "in")
+ggsave(paste0(results_dir, "/ironsteel_emissions_intensity.png"), plot = emis_intensity_fig, height = 6, width = 9, units = "in")
 
 # CUMULATIVE DIRECT CO2 EMISSIONS FROM STEEL ---------------
 cumulative_ironsteel_co2_2020to2100 <- CO2_emissions_sector_nobio %>%
@@ -1710,8 +1724,11 @@ steel_CO2_plots_1 <- plot_grid(steel_CO2_total_global + theme(legend.position = 
                                  theme(legend.margin = margin(c(5,15,5,5))),
                                ncol = 2, nrow = 1, align = "hv", axis = "tb",
                                rel_widths = c(1, 1), labels = c("a", "b"), label_size = 13)
-steel_CO2_plots_2 <- plot_grid(steel_CO2_share, direct_indirect_CO2_steel_global, 
-                               ncol = 2, nrow = 1, align = "hv", axis = "tb", 
+# steel_CO2_plots_2 <- plot_grid(steel_CO2_share, direct_indirect_CO2_steel_global, 
+#                                ncol = 2, nrow = 1, align = "hv", axis = "tb", 
+#                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
+steel_CO2_plots_2 <- plot_grid(emis_intensity_fig, direct_indirect_CO2_steel_global, 
+                               ncol = 2, nrow = 1, align = "hv", axis = "b", 
                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
 plot_grid(steel_CO2_plots_1, steel_CO2_plots_2, 
           waterfall_chart + plot_theme + theme(axis.text.x = element_text(angle = 25, hjust = 1)), 
