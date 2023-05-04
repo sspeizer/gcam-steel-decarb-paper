@@ -15,8 +15,8 @@ setwd('C:/Users/spei632/Documents/GCAM_industry/R/steel_decarb_paper')
 # LOAD DATA
 # IEA best available technology data, from 
 # https://www.iea.org/articles/driving-energy-efficiency-in-heavy-industries
-iea_bat <- read_csv("efficiency_calcs/iea_steel_bat.csv") %>% 
-  mutate(unit = "GJ/t")
+iea_bat <- read_csv("efficiency_calcs/iea_steel_bat.csv")
+
 # World Best Practice technology data, from Worrell et al. 2008
 # https://eta-publications.lbl.gov/sites/default/files/industrial_best_practice_en.pdf
 # the world best practices values, converting to GJ/kg
