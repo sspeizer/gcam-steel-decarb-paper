@@ -685,7 +685,7 @@ direct_indirect_CO2_steel_global <- ggplot(data=filter(CO2_dir_indir_emissions_i
   scale_fill_manual(values = c("value"="#E31A1C", "total_indirect"="#FB9A99"), labels = c("direct","indirect")) +
   plot_theme +
   geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
-  labs(y=expression(Gt~CO[2]), x = "", title = bquote(bold(Direct~and~indirect~emissions))) +
+  labs(y=expression(Gt~CO[2]), x = "", title = bquote(bold(Direct~and~indirect~steel~CO[2]~emissions))) +
   theme(legend.title = element_blank()) + 
   scale_x_discrete(breaks = c(2020, 2030, 2040, 2050))
 
@@ -795,12 +795,13 @@ cumulative_ironsteel_co2_2020to2100 <- CO2_emissions_sector_nobio %>%
 write.csv(cumulative_ironsteel_co2_2020to2100, paste0(results_dir,"/ironsteel_cumulative_CO2_emissions.csv"))
 
 # make bar chart of cumulative emissions in max year
+second_half_title <- paste0("2020-", max(plot_years))
 steel_CO2_total_cum_global <- ggplot(cumulative_ironsteel_co2_2020to2100 %>% 
                                        filter(year == max(plot_years) & region == "Global"),
                                      aes(x = scenario, y = cum_value, fill = scenario)) + 
   geom_col() + 
   scale_fill_manual(values = scenario_colors, name = "Scenario") + 
-  labs(title = paste0("Cumulative emissions, 2020-",max(plot_years)), 
+  labs(title = bquote(bold("Cumulative steel"~CO[2]~"emissions,"~.(second_half_title))), 
        x="", y=bquote(Gt~CO[2])) +
   plot_theme + 
   scale_x_discrete(breaks = NULL)
@@ -1146,6 +1147,22 @@ write.csv(non_CO2_em_sector_assigned, paste0(results_dir,"/ghg_emis_no_CO2_by_se
 write.csv(all_ghg_em_sector_assigned, paste0(results_dir,"/ghg_emis_by_sector.csv"))
 write.csv(cumulative_all_co2_em_sector_assigned_2020to2100, 
           paste0(results_dir,"/cumulative_all_co2_em_sector_assigned_2020to2100.csv"))
+
+# calculate sectoral shares of total CO2 emissions 
+cumulative_all_co2_em_sector_assigned_2020to2100_shares <- cumulative_all_co2_em_sector_assigned_2020to2100 %>%
+  # also add in share of positive emissions
+  mutate(pos_Gt_CO2e = ifelse(Gt_CO2e < 0, 0, Gt_CO2e)) %>%
+  group_by(scenario, region, sector) %>%
+  mutate(cum_pos_Gt_CO2e = cumsum(pos_Gt_CO2e)) %>%
+  group_by(scenario, year, region) %>%
+  mutate(share = Gt_CO2e / sum(Gt_CO2e),
+         share_cum = cum_Gt_CO2e / sum(cum_Gt_CO2e),
+         share_pos = pos_Gt_CO2e / sum(pos_Gt_CO2e),
+         share_cum_pos = cum_pos_Gt_CO2e / sum(cum_pos_Gt_CO2e)) %>%
+  ungroup()
+
+write.csv(cumulative_all_co2_em_sector_assigned_2020to2100_shares,
+          paste0(results_dir, "cumulative_all_co2_em_sector_assigned_2020to2100_shares.csv"))
 
 # CALCULATIONS FOR COMPARISONS TO OTHER STUDIES ------------
 # STEEL ELECTRICITY USE - RAW
