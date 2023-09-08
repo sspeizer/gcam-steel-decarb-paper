@@ -102,6 +102,9 @@
 	<Value name = "retirement">../../../steel-decarb_addons/final_paper_addons/iron_steel_retirementAdj_v1.xml</Value> <!--adjust retirement for some regions-->
 	<Value name = "CCS">../../../steel-decarb_addons/final_paper_addons/GlobalTechShrwt_ccs_0.xml</Value> <!--CCS share weights to zero-->
 	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->
+
 	</FileSet>
 
         <FileSet name="Reference_2">
@@ -111,6 +114,8 @@
 	<Value name = "CCS">../../../steel-decarb_addons/final_paper_addons/GlobalTechShrwt_ccs_0.xml</Value> <!--CCS share weights to zero-->
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
  	<FileSet name="Reference_3">
@@ -120,6 +125,8 @@
 	<Value name = "CCS">../../../steel-decarb_addons/final_paper_addons/GlobalTechShrwt_ccs_0.xml</Value> <!--CCS share weights to zero-->
 	<Value name = "iron_steel_income_elas">../../../steel-decarb_addons/final_paper_addons/iron_steel_incelas_gssp2_MEF_3.xml</Value>  <!--material efficiency income elasticity-->
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->		
 	</FileSet>
 
         <FileSet name="Reference_4">
@@ -128,6 +135,8 @@
 	<Value name = "CCS">../../../steel-decarb_addons/final_paper_addons/GlobalTechShrwt_ccs_0.xml</Value> <!--CCS share weights to zero-->
 	<Value name = "iron_steel">../../../steel-decarb_addons/final_paper_addons/iron_steel_techAdj_noCCS_v7.xml</Value> 
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
         <FileSet name="Reference_5">
@@ -138,6 +147,8 @@
 	<Value name = "iron_steel_income_elas">../../../steel-decarb_addons/final_paper_addons/iron_steel_incelas_gssp2_MEF_3.xml</Value>  <!--material efficiency income elasticity-->
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
 	<FileSet name="1p5C_6">
@@ -150,6 +161,8 @@
 	<Value name = "bio_limit">../../../steel-decarb_addons/final_paper_addons/bio_ceiling_mkt_firstsecondallgen.xml</Value> <!--limit bioenergy-->
         <Value name = "CCS_ref">../../../steel-decarb_addons/final_paper_addons/steel_ccs_0.6_capture_rate.xml</Value> 
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
  	<FileSet name="1p5C_7">
@@ -163,6 +176,8 @@
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
         <Value name = "CCS_ref">../../../steel-decarb_addons/final_paper_addons/steel_ccs_0.6_capture_rate.xml</Value> 
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
  	<FileSet name="1p5C_8">
@@ -177,6 +192,8 @@
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
         <Value name = "CCS_ref">../../../steel-decarb_addons/final_paper_addons/steel_ccs_0.6_capture_rate.xml</Value> 
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
  	<FileSet name="1p5C_9">
@@ -191,6 +208,8 @@
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
         <Value name = "CCS_ref">../../../steel-decarb_addons/final_paper_addons/steel_ccs_0.6_capture_rate.xml</Value> 
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
   	<FileSet name="1p5C_10">
@@ -208,6 +227,8 @@
 	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
 	<Value name = "CCS_ref">../../../steel-decarb_addons/final_paper_addons/steel_ccs_0.6_capture_rate.xml</Value> 
         <Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
  	<FileSet name="1p5C_11">
@@ -221,6 +242,8 @@
         <Value name = "iron_steel_income_elas">../../../steel-decarb_addons/final_paper_addons/iron_steel_incelas_gssp2_MEF_3.xml</Value>  <!--material efficiency income elasticity-->
 	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
     	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
  	<FileSet name="1p5C_12">
@@ -237,6 +260,8 @@
         <Value name = "wind_adv">../input/gcamdata/xml/wind_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
 	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->	
 	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
         <FileSet name="1p5C_13">
@@ -254,6 +279,8 @@
         <Value name = "wind_adv">../input/gcamdata/xml/wind_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
 	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
 	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
 	<FileSet name="1p5C_delay_14">
@@ -272,6 +299,8 @@
 	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
 	<Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 	<Value name = "dac_phase_in">../../../steel-decarb_addons/final_paper_addons/dac_adj_shrwt_phase_in_v6.xml</Value> <!--DAC only comes in later in the century-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 
 	</FileSet>
 
@@ -292,7 +321,8 @@
      	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
 	<Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 	<Value name = "dac_phase_in">../../../steel-decarb_addons/final_paper_addons/dac_adj_shrwt_phase_in_v6.xml</Value> <!--DAC only comes in later in the century-->
-
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 	
 	<FileSet name="1p5C_16_no_new_EU_gas_DRI">
@@ -310,10 +340,45 @@
         <Value name = "wind_adv">../input/gcamdata/xml/wind_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
 	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->	
 	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_1000.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
+	</FileSet>
 	
+
+	<FileSet name="1p5C_17">
+	<Value name = "retirement">../../../steel-decarb_addons/final_paper_addons/iron_steel_retirementAdj_v1.xml</Value> <!--adjust retirement for some regions-->
+	<Value name = "iron_steel_adj">../../../steel-decarb_addons/final_paper_addons/iron_steel_ref_adj_v1.xml</Value>
+	<Value name = "ghg constraint">../../../steel-decarb_addons/final_paper_addons/global_co2_1p5C_v7.xml</Value> <!--emissions contraint-->
+        <Value name = "ghg_link">../../../steel-decarb_addons/final_paper_addons/globalUCT_price_adj_2_all_regions_hcm.xml</Value> <!--link file-->
+	<Value name = "bio_limit">../../../steel-decarb_addons/final_paper_addons/bio_ceiling_B100Const.xml</Value> <!--limit bioenergy-->
+	<Value name = "bio_limit">../../../steel-decarb_addons/final_paper_addons/bio_ceiling_mkt_firstsecondallgen.xml</Value> <!--limit bioenergy-->
+        <Value name = "iron_steel_income_elas">../../../steel-decarb_addons/final_paper_addons/iron_steel_incelas_gssp2_MEF_3.xml</Value>  <!--material efficiency income elasticity-->
+	<Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
+	<Value name = "hydrogen">../../../steel-decarb_addons/final_paper_addons/hydrogen_adv_GCAM6p0.xml</Value> <!-- advanced hydrogen assumptions, lower cost production-->
+        <Value name = "wind_adv">../input/gcamdata/xml/wind_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
+	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->	
+	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_500.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
 	</FileSet>
 
 
+	<FileSet name="1p5C_18">
+ 
+	<Value name = "retirement">../../../steel-decarb_addons/final_paper_addons/iron_steel_retirementAdj_v1.xml</Value> <!--adjust retirement for some regions-->
+	<Value name = "iron_steel_adj">../../../steel-decarb_addons/final_paper_addons/iron_steel_ref_adj_v1.xml</Value>
+	<Value name = "ghg constraint">../../../steel-decarb_addons/final_paper_addons/global_co2_1p5C_v7.xml</Value> <!--emissions contraint-->
+        <Value name = "ghg_link">../../../steel-decarb_addons/final_paper_addons/globalUCT_price_adj_2_all_regions_hcm.xml</Value> <!--link file-->
+	<Value name = "bio_limit">../../../steel-decarb_addons/final_paper_addons/bio_ceiling_B100Const.xml</Value> <!--limit bioenergy-->
+	<Value name = "bio_limit">../../../steel-decarb_addons/final_paper_addons/bio_ceiling_mkt_firstsecondallgen.xml</Value> <!--limit bioenergy-->
+        <Value name = "energy_eff">../../../steel-decarb_addons/final_paper_addons/steel_efficiency_coefs_bat_2050_or_20pct_improvement_GCAM6p0_final.xml</Value>  <!--energy efficiency: achieve BAT efficiency or 20% improvement in 2050-->
+	<Value name = "hydrogen">../../../steel-decarb_addons/final_paper_addons/hydrogen_adv_GCAM6p0.xml</Value> <!-- advanced hydrogen assumptions, lower cost production-->
+        <Value name = "wind_adv">../input/gcamdata/xml/wind_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->
+	<Value name = "solar_adv">../input/gcamdata/xml/solar_adv.xml</Value> <!--for consistency with advanced hydrogen assumptions-->	
+	<Value name="price_elas">../../../steel-decarb_addons/final_paper_addons/price_elas_0.xml</Value> <!--set price elasticity for Japan and South Korea to zero-->
+	<Value name="scrap_lim">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_500.xml</Value> <!--scrap constraint-->
+	<Value name="scrap_lim_link">../../../steel-decarb_addons/final_paper_addons/scrap_constraint_link.xml</Value> <!--scrap constraint link file-->	
+	</FileSet>
 
 	</ComponentSet>
 	
