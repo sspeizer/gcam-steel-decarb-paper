@@ -128,6 +128,10 @@ CO2_prices <- CO2_prices %>%
   mutate(value = if_else(Units == "1990$/tC", value / C_to_CO2, value), 
          Units = if_else(Units == "1990$/tC", "1990$/tCO2", Units))
 
+CO2_squestration_tech <- CO2_squestration_tech %>%
+  dplyr::mutate(value = if_else(Units == "MTC", value * C_to_CO2, value),
+                Units = if_else(Units == "MTC", "MTCO2", Units))
+
 # aggregate to deep dive regions and ROW
 electricity <- electricity %>% aggregate_regions(region_mapping, colname = "steel_region")
 CO2_emissions <- CO2_emissions %>% aggregate_regions(region_mapping, colname = "steel_region")
@@ -441,7 +445,7 @@ steel_CO2_share <- ggplot(filter(ironsteel_CO2, year%in%plot_years, (scenario ==
   geom_col() + 
   scale_fill_manual(values = regions, name = "Region") +
   facet_wrap(~scenario, nrow = 1)+
-  labs(title = expression(bold(paste(Regional~contributions~to~total~emissions))),
+  labs(title = expression(bold(paste(Regional~contributions~to~total~steel~direct~CO[2]~emissions))),
        x = "",
        y = expression("Share of total emissions")) + 
   plot_theme
@@ -488,6 +492,7 @@ mat_eff_bar <- ggplot(filter(mat_eff),
   blank_theme
 
 # STEEL PRODUCTION STACKED LINE CHART ---------------
+ironsteel_production_2 <- ironsteel_production # save this version with original scenarios
 ironsteel_production$scenario <- factor(ironsteel_production$scenario,levels= scenarios, labels = scenario_labels)
 
 # reference only
@@ -911,8 +916,6 @@ ironsteel_prices_agg_comp_ref <- ironsteel_prices_agg %>%
 ironsteel_prices_agg_comp_ref_sel <- ironsteel_prices_agg_comp_ref
 ironsteel_prices_agg_comp_ref_sel$scenario <- factor(ironsteel_prices_agg_comp_ref_sel$scenario, 
                                                      levels = scenarios, labels = scenario_labels)
-
-write.csv(ironsteel_prices_agg_comp_ref, paste0(results_dir, "/ironsteel_prices_agg.csv"))
 
 prices_fig_global <- ggplot(data=ironsteel_prices_agg_comp_ref_sel %>% 
                               filter(region == "Global" & !is.na(scenario) & year %in% plot_years) %>%
@@ -2019,6 +2022,29 @@ final_en_plot <- plot_grid(final_en_sector_plot, final_en_fuel_plot, nrow = 2, n
 ggsave(paste0(fig_dir, "/final_en_sect_fuel_global.png"), plot = final_en_plot, 
        height = 10, width = 10, units = "in")
 
+# CO2 SEQUESTRATION BY STEEL TECHNOLOGIES -----------
+CO2_sequestration_steel <- CO2_squestration_tech %>% 
+  filter(sector == "iron and steel") %>%
+  group_by(scenario, region, sector, Units, year) %>%
+  summarize(value = sum(value)) %>%
+  ungroup()
+
+CO2_sequestration_steel$scenario <- factor(CO2_sequestration_steel$scenario, 
+                                           levels = scenarios_all_sel, labels=scenario_labels_all_sel)
+
+CO2_sequestration_steel_global_all_runs <- ggplot(data=filter(CO2_sequestration_steel, region == "Global", year %in% plot_years, scenario!="NA") %>%
+                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b")),
+                                          aes(x=year, y=value/1000, color=scenario, size = line_width)) +
+  geom_line() +
+  labs(title = bquote(bold(Global~CO[2]~sequestration~by~"CCS-equipped"~steel~technologies)), x="", y=bquote(Gt~CO[2])) +
+  scale_color_manual(values = scenario_colors_all_runs, name = "Scenario", limits = force, drop = TRUE) +
+  scale_size_manual(values = c(1.5, 0.5), guide = "none") + 
+  plot_theme
+
+ggsave(paste0(fig_dir, "/CO2_sequestration_steel_global.png"), plot = CO2_sequestration_steel_global_all_runs, 
+       height = 7, width = 10, units = "in")
+write_csv(CO2_sequestration_steel, paste0(fig_dir, "/CO2_sequestration_steel.csv"))
+
 # INDUSTRY SECTORS EMISSIONS IN 2015 -----------
 # getting the emissions and emissions intensity for industry sectors in 2015
 CO2_emissions_sector_nobio_industry_global <- CO2_emissions_sector_nobio %>%
@@ -2247,6 +2273,34 @@ energy_intensity_plot <- ggplot(ironsteel_energy_intensity_tech_sel %>% filter(y
 
 ggsave(paste0(fig_dir, "/ironsteel_energy_intensity.png"), plot = energy_intensity_plot, 
        height = 10, width = 10, units = "in")
+
+# get total energy intensity (across all technologies)
+ironsteel_energy_intensity_total_reg <- industry_energy_tech_fuel_2 %>%
+  aggregate_regions(region_mapping, colname = "steel_region") %>%
+  filter(sector == "iron and steel") %>%
+  group_by(region, scenario, sector, year) %>%
+  summarize(EJ = sum(value)) %>%
+  ungroup() %>%
+  left_join(ironsteel_production_2 %>%
+              dplyr::select(scenario, region, sector, year, value) %>%
+              rename(Mt = value)) %>%
+  mutate(intensity_GJ_per_kg = EJ / Mt)
+
+ironsteel_energy_intensity_total_reg$scenario <- factor(ironsteel_energy_intensity_total_reg$scenario,
+                                                        levels = scenarios_all_sel, labels = scenario_labels_all_sel)
+
+# plot just reference and reference + EE scenario for 2050 intensity for major regions
+energy_intensity_total_comp_plot <- ggplot(ironsteel_energy_intensity_total_reg %>% 
+                                             filter((year == 2050 & scenario %in% c("Reference", "Reference EE")) | (year == 2020 & scenario == "Reference")) %>%
+                                             mutate(label = paste(year, scenario)),
+       aes(x = region, y = intensity_GJ_per_kg, fill = label)) +
+  geom_col(position = "dodge") + 
+  scale_fill_manual(values = c("darkgray", unname(scenario_colors_all_runs)), name = "") + 
+  labs(title = "Regional steel production energy intensity", x="", y="GJ per kg") +
+  plot_theme 
+
+ggsave(paste0(fig_dir, "/ironsteel_energy_intensity_total_comp_2050.png"), plot = energy_intensity_total_comp_plot, 
+       height = 6, width = 10, units = "in")
 
 # obtain from the input assumptions
 # get the total coefficients for each technology in standard assumptions
@@ -2626,10 +2680,13 @@ ironsteel_production_tech_all_runs$technology <- factor(ironsteel_production_tec
                                                           'EAF-scrap','DRI-EAF-H2'))
 
 production_tech_global_all_runs <- ggplot(data=filter(ironsteel_production_tech_all_runs, region == "Global",
-                                             year %in% c(2030, 2050), scenario != "NA"),
+                                             year %in% c(2030, 2050), scenario != "NA") %>%
+                                            rbind((ironsteel_production_tech_all_runs %>% 
+                                                     filter(region == "Global" & year == 2015 & scenario == "Reference") %>% 
+                                                     mutate(scenario = "Historical (2015)", year = ""))),
                                  aes(x=scenario, y=value, fill=technology)) +
   geom_col(width = 0.5)+
-  facet_wrap(~year, nrow = 1) +
+  facet_grid(cols = vars(year), space = "free", scales = "free_x") +
   labs(title = "Global steel production by technology", x="", y="Mt") +
   scale_fill_manual(values = tech_colors, name = "Technology")+
   plot_theme
@@ -2704,6 +2761,8 @@ prices_fig_global_all_1p5_runs <- ggplot(data=ironsteel_prices_agg_comp_ref %>%
   labs(title = expression(bold("Global weighted average steel price relative to reference scenario\nin 1.5C scenarios")), x="", y="Percent difference") +
   plot_theme
 ggsave(paste0(results_dir, "/ironsteel_prices_global_all_1p5_runs.png"), plot = prices_fig_global_all_1p5_runs, height = 6, width = 9, units = "in")
+
+write.csv(ironsteel_prices_agg_comp_ref, paste0(results_dir, "/ironsteel_prices_agg.csv"))
 
 # combine figure with production by technology, emissions, and prices
 steel_CO2_total_global_prices_all_runs <- plot_grid(prices_fig_global_all_1p5_runs + 
