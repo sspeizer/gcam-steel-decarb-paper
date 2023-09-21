@@ -957,7 +957,7 @@ steel_CO2_total_cum_global <- ggplot(cumulative_ironsteel_co2_2020to2100 %>%
                                        filter(year == max(plot_years) & region == "Global"),
                                      aes(x = scenario, y = cum_value, fill = scenario)) + 
   geom_col() + 
-  scale_fill_manual(values = scenario_colors, name = "Scenario") + 
+  scale_fill_manual(values = scenario_colors, name = "Scenario", limits = force, drop = TRUE) + 
   labs(title = bquote(bold("Cumulative steel"~CO[2]~"emissions,"~.(second_half_title))), 
        x="", y=bquote(Gt~CO[2])) +
   plot_theme + 
@@ -2226,7 +2226,7 @@ H2_industrial_prices_reg_sel_plot <- ggplot(H2_industrial_prices_agg %>%
   geom_line(size = 1) + 
   scale_linetype_manual(values = c("dashed", "solid"), name = "Scenario") + 
   facet_wrap(~region, ncol = 3) + 
-  labs(title = "Hydrogen prices for the steel sector for major steel producing regions", x="", y="2019$/GJ hydrogen") +
+  labs(title = "Price of hydrogen for the steel sector for major steel-producing regions", x="", y="2019$/GJ hydrogen") +
   plot_theme 
 
 ggsave(paste0(fig_dir, "/H2_industrial_prices_regional_sel.png"), plot = H2_industrial_prices_reg_sel_plot, 

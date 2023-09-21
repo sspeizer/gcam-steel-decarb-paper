@@ -1,0 +1,573 @@
+sector.name,subsector.name,technology,minicam.non.energy.input,units,input.cost,year
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.4334,1975
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.4334,1990
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.4334,2005
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.4334,2010
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.4334,2015
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.3498,2020
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.188410344197236,2025
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,2.0381053002763916,2030
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.8981235516588937,2035
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.7677560707356879,2040
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.646342527540829,2045
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.5332679450856128,2050
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.4279595844120325,2055
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.3298840435879131,2060
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.2385445559497135,2065
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2070
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2075
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2080
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2085
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2090
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2095
+H2 central production,biomass,biomass to H2,non-energy,$1975/GJ H2,1.19235,2100
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.7625,1975
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.7625,1990
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.7625,2005
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.7625,2010
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.7625,2015
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,2.3417,2020
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,1.6281936247315385,2025
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,1.1320897124381544,2030
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.7871466252790553,2035
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2040
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2045
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2050
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2055
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2060
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2065
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2070
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2075
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2080
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2085
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2090
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2095
+H2 central production,electricity,electrolysis,non-energy,$1975/GJ H2,0.690625,2100
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7507,1975
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7507,1990
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7507,2005
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7507,2010
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7507,2015
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.7324,2020
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.696669115640921,2025
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.6626813990823361,2030
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.6303518080971864,2035
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.5995994493305876,2040
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.5703473758928506,2045
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.5425223948271328,2050
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.5160548839699799,2055
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.49087861774651004,2060
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.4669306014643622,2065
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.44415091369178117,2070
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.42248255632545084,2075
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.40187131197292114,2080
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.39792500000000003,2085
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.39792500000000003,2090
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.39792500000000003,2095
+H2 central production,gas,natural gas steam reforming,non-energy,$1975/GJ H2,0.39792500000000003,2100
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4762,1975
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4762,1990
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4762,2005
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4762,2010
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4762,2015
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.4264,2020
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.327503754779372,2025
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.229768203012503,2030
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.133179722247993,2035
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,8.037724849914035,2040
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.9433902814419675,2045
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.850162868411891,2050
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.758029616720027,2055
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.666977684767588,2060
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.576994381670909,2065
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.488067165492583,2070
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.400183641493356,2075
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.31333156040454,2080
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.227498816720699,2085
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.142673447012377,2090
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,7.058843628258627,2095
+H2 central production,nuclear,thermal splitting,non-energy,$1975/GJ H2,6.975997676199108,2100
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,13.0753,1975
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,13.0753,1990
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,13.0753,2005
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,13.0753,2010
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,13.0753,2015
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,11.0192,2020
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,7.5536317950961,2025
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,5.1779941643573695,2030
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.5495009941476594,2035
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2040
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2045
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2050
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2055
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2060
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2065
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2070
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2075
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2080
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2085
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2090
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2095
+H2 central production,solar,electrolysis,electrolyzer,$1975/GJ H2,3.268825,2100
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,5.7322,1975
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,5.7322,1990
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,5.7322,2005
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,5.7322,2010
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,5.7322,2015
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,4.8406,2020
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,3.334656063622779,2025
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,2.297221638362221,2030
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.5825401945729936,2035
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2040
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2045
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2050
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2055
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2060
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2065
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2070
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2075
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2080
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2085
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2090
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2095
+H2 central production,wind,electrolysis,electrolyzer,$1975/GJ H2,1.43305,2100
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,3.0172,1975
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,3.0172,1990
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,3.0172,2005
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,3.0172,2010
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,3.0172,2015
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,2.5348,2020
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,1.7242516848933032,2025
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,1.172890907707667,2030
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7978377480712405,2035
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2040
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2045
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2050
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2055
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2060
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2065
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2070
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2075
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2080
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2085
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2090
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2095
+H2 industrial,forecourt production,electrolysis,non-energy,$1975/GJ H2,0.7543,2100
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,3.0172,1975
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,3.0172,1990
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,3.0172,2005
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,3.0172,2010
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,3.0172,2015
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,2.5348,2020
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,1.7242516848933032,2025
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,1.172890907707667,2030
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7978377480712405,2035
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2040
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2045
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2050
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2055
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2060
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2065
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2070
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2075
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2080
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2085
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2090
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2095
+H2 wholesale dispensing,forecourt production,electrolysis,production,$1975/GJ H2,0.7543,2100
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6974,1975
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6974,1990
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6974,2005
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6974,2010
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6974,2015
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6794,2020
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6438690363030042,2025
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.6090897990447588,2030
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.5750463839947018,2035
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.541723223407111,2040
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.5091050789021132,2045
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.4771770344973123,2050
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.4459244897868442,2055
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.4153331532647448,2060
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.3853890357895728,2065
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.3560784441873008,2070
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.3273879749895534,2075
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.2993045083043189,2080
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.2718152018163449,2085
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.2449074849144608,2090
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.2185690529431534,2095
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,production,$1975/GJ H2,1.1927878615757568,2100
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2915,1975
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2915,1990
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2915,2005
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2915,2010
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2915,2015
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.2128,2020
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,2.060842879424903,2025
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.919320938935433,2030
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.787517575170014,2035
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.6647653952621082,2040
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.5504428374633497,2045
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.4439710238348187,2050
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.3448108290698995,2055
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.2524601506065631,2060
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.1664513662061542,2065
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2070
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2075
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2080
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2085
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2090
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2095
+H2 central production,coal,coal chemical,non-energy,$1975/GJ H2,1.122825,2100
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,23.4796,1975
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,23.4796,1990
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,23.4796,2005
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,23.4796,2010
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,23.4796,2015
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,16.7587,2020
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,10.365523267396906,2025
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,6.4112414809589415,2030
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2035
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2040
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2045
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2050
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2055
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2060
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2065
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2070
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2075
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2080
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2085
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2090
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2095
+H2 central production,solar,electrolysis,solar panels,$1975/GJ H2,5.8699,2100
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,8.202,1975
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,8.202,1990
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,8.202,2005
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,8.202,2010
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,8.202,2015
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,7.2478,2020
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,5.979891003101851,2025
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,4.933786308807977,2030
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,4.070684119217957,2035
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,3.358570509807258,2040
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.7710319786527795,2045
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.2862757248341947,2050
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2055
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2060
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2065
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2070
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2075
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2080
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2085
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2090
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2095
+H2 central production,wind,electrolysis,wind turbines,$1975/GJ H2,2.0505,2100
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,4.0154,1975
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,4.0154,1990
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,4.0154,2005
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,4.0154,2010
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,4.0154,2015
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,3.8679,2020
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,3.645110344197236,2025
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,3.4359053002763917,2030
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,3.2394235516588936,2035
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,3.054856070735688,2040
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.881342527540829,2045
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.718367945085613,2050
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.5650595844120323,2055
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.4210840435879133,2060
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.2856445559497134,2065
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.19705,2070
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.1564500000000004,2075
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.11745,2080
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.08005,2085
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.04415,2090
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,2.0097500000000004,2095
+H2 central production,biomass,biomass to H2 CCS,non-energy,$1975/GJ H2,1.97665,2100
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7159,1975
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7159,1990
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7159,2005
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7159,2010
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7159,2015
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.7035,2020
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.6734691156409212,2025
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.6446813990823361,2030
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.6172518080971865,2035
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.5910994493305877,2040
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.5661473758928506,2045
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.542222394827133,2050
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.51945488396998,2055
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.49757861774651,2060
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.4767306014643622,2065
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.4432509136917813,2070
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.4101825563254509,2075
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.378271311972921,2080
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.363025,2085
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.351925,2090
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.340825,2095
+H2 central production,gas,natural gas steam reforming CCS,non-energy,$1975/GJ H2,1.329825,2100
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.7813,1975
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.7813,1990
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.7813,2005
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.7813,2010
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.7813,2015
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.6424,2020
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.432642879424903,2025
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.2356209389354333,2030
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,3.050617575170014,2035
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.876765395262108,2040
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.71344283746335,2045
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.5599710238348186,2050
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.4156108290699,2055
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.2800601506065634,2060
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.1524513662061544,2065
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.068925,2070
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,2.0307250000000003,2075
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,1.994025,2080
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,1.9588249999999998,2085
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,1.925025,2090
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,1.8925249999999998,2095
+H2 central production,coal,coal chemical CCS,non-energy,$1975/GJ H2,1.8614249999999999,2100
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,1975
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,1990
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2005
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2010
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2015
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2020
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2025
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2030
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2035
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2040
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2045
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2050
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2055
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2060
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2065
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2070
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2075
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2080
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2085
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2090
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2095
+H2 industrial,H2 delivery,H2 delivery,non-energy,$1975/GJ H2,0,2100
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,1975
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,1990
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2005
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2010
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2015
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2020
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2025
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.137,2030
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,4.0529,2035
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.9704,2040
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.8897,2045
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.8106,2050
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.7331,2055
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.6571,2060
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.5827,2065
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.5099,2070
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.4385,2075
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.3686,2080
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.3,2085
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.2329,2090
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.1672,2095
+H2 liquid truck,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,3.1028,2100
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,1975
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,1990
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,2005
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,2010
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,2015
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,2020
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,6,2025
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,2.006,2030
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.9652,2035
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.9252,2040
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.8861,2045
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.8477,2050
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.8101,2055
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.7733,2060
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.7372,2065
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.7019,2070
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.6673,2075
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.6334,2080
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.6002,2085
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.5676,2090
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.5357,2095
+H2 pipeline,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,1.5045,2100
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,1975
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,1990
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2005
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2010
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2015
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2020
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2025
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2030
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2035
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2040
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2045
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2050
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2055
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2060
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2065
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2070
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2075
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2080
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2085
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2090
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2095
+H2 retail delivery,H2 retail delivery,H2 retail delivery,non-energy,$1975/GJ H2,1.25,2100
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,1975
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,1990
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2005
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2010
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2015
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2020
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2025
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2030
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2035
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2040
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2045
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2050
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2055
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2060
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2065
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2070
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2075
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2080
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2085
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2090
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2095
+H2 retail dispensing,H2 retail dispensing,H2 retail dispensing,non-energy,$1975/GJ H2,1.25,2100
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,1975
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,1990
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2005
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2010
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2015
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2020
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2025
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2030
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2035
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2040
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2045
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2050
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2055
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2060
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2065
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2070
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2075
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2080
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2085
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2090
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2095
+H2 wholesale delivery,H2 liquid truck,H2 liquid truck,non-energy,$1975/GJ H2,0,2100
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,1975
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,1990
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2005
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2010
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2015
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2020
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2025
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2030
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2035
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2040
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2045
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2050
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2055
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2060
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2065
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2070
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2075
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2080
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2085
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2090
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2095
+H2 wholesale delivery,H2 pipeline,H2 pipeline,non-energy,$1975/GJ H2,0,2100
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,1975
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,1990
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2005
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2010
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2015
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2020
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2025
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.189,2030
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.1069,2035
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,5.0262,2040
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.9467,2045
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.8685,2050
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.7915,2055
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.7158,2060
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.6412,2065
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.5678,2070
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.4956,2075
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.4245,2080
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.3545,2085
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.2857,2090
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.2179,2095
+H2 wholesale dispensing,forecourt production,electrolysis,compression and storage,$1975/GJ H2,4.1512,2100
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,1975
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,1990
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2005
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2010
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2015
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2020
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2025
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.189,2030
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.1069,2035
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,5.0262,2040
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.9467,2045
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.8685,2050
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.7915,2055
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.7158,2060
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.6412,2065
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.5678,2070
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.4956,2075
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.4245,2080
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.3545,2085
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.2857,2090
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.2179,2095
+H2 wholesale dispensing,forecourt production,natural gas steam reforming,compression and storage,$1975/GJ H2,4.1512,2100
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,1975
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,1990
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2005
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2010
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2015
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2020
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2025
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.321,2030
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.2961,2035
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.2714,2040
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.2469,2045
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.2225,2050
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.1984,2055
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.1744,2060
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.1506,2065
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.127,2070
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.1035,2075
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.0802,2080
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.0571,2085
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.0342,2090
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,3.0115,2095
+H2 wholesale dispensing,H2 delivery,H2 liquid truck,non-energy,$1975/GJ H2,2.9889,2100
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,1975
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,1990
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2005
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2010
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2015
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2020
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2025
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.189,2030
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.1069,2035
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,5.0262,2040
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.9467,2045
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.8685,2050
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.7915,2055
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.7158,2060
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.6412,2065
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.5678,2070
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.4956,2075
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.4245,2080
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.3545,2085
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.2857,2090
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.2179,2095
+H2 wholesale dispensing,H2 delivery,H2 pipeline,non-energy,$1975/GJ H2,4.1512,2100

@@ -1,0 +1,613 @@
+sector.name,subsector.name,technology,year,minicam.energy.input,coefficient
+iron and steel,BLASTFUR,Biomass-based,2015,delivered biomass,0.0167779
+iron and steel,BLASTFUR,Biomass-based,2020,delivered biomass,0.0167779
+iron and steel,BLASTFUR,Biomass-based,2025,delivered biomass,0.01636745028133125
+iron and steel,BLASTFUR,Biomass-based,2030,delivered biomass,0.0159570005626625
+iron and steel,BLASTFUR,Biomass-based,2035,delivered biomass,0.01554655084399375
+iron and steel,BLASTFUR,Biomass-based,2040,delivered biomass,0.015136101125325001
+iron and steel,BLASTFUR,Biomass-based,2045,delivered biomass,0.014725651406656251
+iron and steel,BLASTFUR,Biomass-based,2050,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2055,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2060,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2065,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2070,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2075,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2080,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2085,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2090,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2095,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2100,delivered biomass,0.014315201687987502
+iron and steel,BLASTFUR,Biomass-based,2015,elect_td_ind,5.482e-4
+iron and steel,BLASTFUR,Biomass-based,2020,elect_td_ind,5.482e-4
+iron and steel,BLASTFUR,Biomass-based,2025,elect_td_ind,5.347889929148339e-4
+iron and steel,BLASTFUR,Biomass-based,2030,elect_td_ind,5.213779858296677e-4
+iron and steel,BLASTFUR,Biomass-based,2035,elect_td_ind,5.079669787445017e-4
+iron and steel,BLASTFUR,Biomass-based,2040,elect_td_ind,4.945559716593356e-4
+iron and steel,BLASTFUR,Biomass-based,2045,elect_td_ind,4.811449645741694e-4
+iron and steel,BLASTFUR,Biomass-based,2050,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2055,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2060,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2065,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2070,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2075,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2080,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2085,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2090,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2095,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2100,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,Biomass-based,2015,refined liquids industrial,9.999999999999999e-6
+iron and steel,BLASTFUR,Biomass-based,2020,refined liquids industrial,9.999999999999999e-6
+iron and steel,BLASTFUR,Biomass-based,2025,refined liquids industrial,9.755362876957933e-6
+iron and steel,BLASTFUR,Biomass-based,2030,refined liquids industrial,9.510725753915866e-6
+iron and steel,BLASTFUR,Biomass-based,2035,refined liquids industrial,9.266088630873798e-6
+iron and steel,BLASTFUR,Biomass-based,2040,refined liquids industrial,9.021451507831732e-6
+iron and steel,BLASTFUR,Biomass-based,2045,refined liquids industrial,8.776814384789665e-6
+iron and steel,BLASTFUR,Biomass-based,2050,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2055,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2060,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2065,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2070,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2075,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2080,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2085,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2090,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2095,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2100,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2015,wholesale gas,9.999999999999999e-6
+iron and steel,BLASTFUR,Biomass-based,2020,wholesale gas,9.999999999999999e-6
+iron and steel,BLASTFUR,Biomass-based,2025,wholesale gas,9.755362876957933e-6
+iron and steel,BLASTFUR,Biomass-based,2030,wholesale gas,9.510725753915866e-6
+iron and steel,BLASTFUR,Biomass-based,2035,wholesale gas,9.266088630873798e-6
+iron and steel,BLASTFUR,Biomass-based,2040,wholesale gas,9.021451507831732e-6
+iron and steel,BLASTFUR,Biomass-based,2045,wholesale gas,8.776814384789665e-6
+iron and steel,BLASTFUR,Biomass-based,2050,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2055,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2060,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2065,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2070,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2075,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2080,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2085,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2090,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2095,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,Biomass-based,2100,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2015,delivered coal,0.0167779
+iron and steel,BLASTFUR,BLASTFUR,2020,delivered coal,0.0167779
+iron and steel,BLASTFUR,BLASTFUR,2025,delivered coal,0.01636745028133125
+iron and steel,BLASTFUR,BLASTFUR,2030,delivered coal,0.0159570005626625
+iron and steel,BLASTFUR,BLASTFUR,2035,delivered coal,0.01554655084399375
+iron and steel,BLASTFUR,BLASTFUR,2040,delivered coal,0.015136101125325001
+iron and steel,BLASTFUR,BLASTFUR,2045,delivered coal,0.014725651406656251
+iron and steel,BLASTFUR,BLASTFUR,2050,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2055,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2060,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2065,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2070,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2075,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2080,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2085,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2090,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2095,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2100,delivered coal,0.014315201687987502
+iron and steel,BLASTFUR,BLASTFUR,2015,elect_td_ind,5.482e-4
+iron and steel,BLASTFUR,BLASTFUR,2020,elect_td_ind,5.482e-4
+iron and steel,BLASTFUR,BLASTFUR,2025,elect_td_ind,5.347889929148339e-4
+iron and steel,BLASTFUR,BLASTFUR,2030,elect_td_ind,5.213779858296677e-4
+iron and steel,BLASTFUR,BLASTFUR,2035,elect_td_ind,5.079669787445017e-4
+iron and steel,BLASTFUR,BLASTFUR,2040,elect_td_ind,4.945559716593356e-4
+iron and steel,BLASTFUR,BLASTFUR,2045,elect_td_ind,4.811449645741694e-4
+iron and steel,BLASTFUR,BLASTFUR,2050,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2055,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2060,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2065,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2070,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2075,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2080,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2085,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2090,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2095,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2100,elect_td_ind,4.6773395748900336e-4
+iron and steel,BLASTFUR,BLASTFUR,2015,refined liquids industrial,9.999999999999999e-6
+iron and steel,BLASTFUR,BLASTFUR,2020,refined liquids industrial,9.999999999999999e-6
+iron and steel,BLASTFUR,BLASTFUR,2025,refined liquids industrial,9.755362876957933e-6
+iron and steel,BLASTFUR,BLASTFUR,2030,refined liquids industrial,9.510725753915866e-6
+iron and steel,BLASTFUR,BLASTFUR,2035,refined liquids industrial,9.266088630873798e-6
+iron and steel,BLASTFUR,BLASTFUR,2040,refined liquids industrial,9.021451507831732e-6
+iron and steel,BLASTFUR,BLASTFUR,2045,refined liquids industrial,8.776814384789665e-6
+iron and steel,BLASTFUR,BLASTFUR,2050,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2055,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2060,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2065,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2070,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2075,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2080,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2085,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2090,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2095,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2100,refined liquids industrial,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2015,wholesale gas,9.999999999999999e-6
+iron and steel,BLASTFUR,BLASTFUR,2020,wholesale gas,9.999999999999999e-6
+iron and steel,BLASTFUR,BLASTFUR,2025,wholesale gas,9.755362876957933e-6
+iron and steel,BLASTFUR,BLASTFUR,2030,wholesale gas,9.510725753915866e-6
+iron and steel,BLASTFUR,BLASTFUR,2035,wholesale gas,9.266088630873798e-6
+iron and steel,BLASTFUR,BLASTFUR,2040,wholesale gas,9.021451507831732e-6
+iron and steel,BLASTFUR,BLASTFUR,2045,wholesale gas,8.776814384789665e-6
+iron and steel,BLASTFUR,BLASTFUR,2050,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2055,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2060,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2065,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2070,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2075,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2080,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2085,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2090,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2095,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR,2100,wholesale gas,8.532177261747599e-6
+iron and steel,BLASTFUR,BLASTFUR CCS,2015,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2020,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2025,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2030,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2035,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2040,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2045,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2050,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2055,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2060,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2065,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2070,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2075,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2080,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2085,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2090,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2095,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2100,delivered coal,0.01339
+iron and steel,BLASTFUR,BLASTFUR CCS,2015,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2020,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2025,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2030,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2035,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2040,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2045,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2050,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2055,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2060,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2065,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2070,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2075,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2080,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2085,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2090,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2095,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2100,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS,2015,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2020,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2025,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2030,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2035,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2040,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2045,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2050,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2055,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2060,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2065,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2070,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2075,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2080,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2085,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2090,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2095,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2100,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2015,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2020,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2025,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2030,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2035,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2040,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2045,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2050,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2055,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2060,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2065,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2070,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2075,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2080,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2085,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2090,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2095,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS,2100,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2015,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2020,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2025,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2030,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2035,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2040,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2045,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2050,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2055,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2060,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2065,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2070,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2075,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2080,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2085,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2090,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2095,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2100,delivered coal,0.01027
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2015,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2020,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2025,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2030,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2035,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2040,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2045,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2050,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2055,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2060,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2065,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2070,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2075,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2080,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2085,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2090,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2095,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2100,elect_td_ind,0.0010611
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2015,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2020,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2025,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2030,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2035,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2040,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2045,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2050,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2055,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2060,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2065,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2070,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2075,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2080,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2085,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2090,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2095,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2100,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2015,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2020,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2025,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2030,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2035,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2040,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2045,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2050,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2055,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2060,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2065,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2070,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2075,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2080,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2085,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2090,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2095,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2100,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2015,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2020,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2025,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2030,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2035,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2040,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2045,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2050,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2055,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2060,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2065,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2070,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2075,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2080,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2085,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2090,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2095,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,2100,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2015,delivered coal,0.0136579
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2020,delivered coal,0.0136579
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2025,delivered coal,0.013303950618164528
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2030,delivered coal,0.012950001236329054
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2035,delivered coal,0.012596051854493582
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2040,delivered coal,0.01224210247265811
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2045,delivered coal,0.011888153090822636
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2050,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2055,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2060,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2065,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2070,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2075,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2080,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2085,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2090,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2095,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2100,delivered coal,0.011534203708987164
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2015,elect_td_ind,5.482000000000001e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2020,elect_td_ind,5.482000000000001e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2025,elect_td_ind,5.339932001902046e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2030,elect_td_ind,5.19786400380409e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2035,elect_td_ind,5.055796005706136e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2040,elect_td_ind,4.91372800760818e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2045,elect_td_ind,4.7716600095102247e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2050,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2055,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2060,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2065,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2070,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2075,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2080,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2085,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2090,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2095,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2100,elect_td_ind,4.629592011412269e-4
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2015,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2020,H2 industrial,0.0032989
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2025,H2 industrial,0.0032134078221588208
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2030,H2 industrial,0.0031279156443176416
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2035,H2 industrial,0.0030424234664764623
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2040,H2 industrial,0.002956931288635283
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2045,H2 industrial,0.002871439110794104
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2050,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2055,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2060,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2065,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2070,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2075,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2080,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2085,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2090,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2095,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2100,H2 industrial,0.0027859469329529246
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2015,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2020,refined liquids industrial,1e-5
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2025,refined liquids industrial,9.740846409890633e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2030,refined liquids industrial,9.481692819781266e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2035,refined liquids industrial,9.222539229671898e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2040,refined liquids industrial,8.963385639562532e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2045,refined liquids industrial,8.704232049453164e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2050,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2055,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2060,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2065,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2070,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2075,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2080,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2085,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2090,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2095,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2100,refined liquids industrial,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2015,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2020,wholesale gas,1e-5
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2025,wholesale gas,9.740846409890633e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2030,wholesale gas,9.481692819781266e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2035,wholesale gas,9.222539229671898e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2040,wholesale gas,8.963385639562532e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2045,wholesale gas,8.704232049453164e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2050,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2055,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2060,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2065,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2070,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2075,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2080,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2085,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2090,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2095,wholesale gas,8.445078459343797e-6
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,2100,wholesale gas,8.445078459343797e-6
+iron and steel,EAF with DRI,EAF with DRI,2015,delivered coal,0.0023401
+iron and steel,EAF with DRI,EAF with DRI,2020,delivered coal,0.0023401
+iron and steel,EAF with DRI,EAF with DRI,2025,delivered coal,0.0022707395859684625
+iron and steel,EAF with DRI,EAF with DRI,2030,delivered coal,0.0022013791719369255
+iron and steel,EAF with DRI,EAF with DRI,2035,delivered coal,0.002132018757905388
+iron and steel,EAF with DRI,EAF with DRI,2040,delivered coal,0.002062658343873851
+iron and steel,EAF with DRI,EAF with DRI,2045,delivered coal,0.0019932979298423136
+iron and steel,EAF with DRI,EAF with DRI,2050,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2055,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2060,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2065,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2070,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2075,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2080,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2085,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2090,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2095,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2100,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI,2015,elect_td_ind,0.001315
+iron and steel,EAF with DRI,EAF with DRI,2020,elect_td_ind,0.001315
+iron and steel,EAF with DRI,EAF with DRI,2025,elect_td_ind,0.0012760234842735475
+iron and steel,EAF with DRI,EAF with DRI,2030,elect_td_ind,0.001237046968547095
+iron and steel,EAF with DRI,EAF with DRI,2035,elect_td_ind,0.0011980704528206424
+iron and steel,EAF with DRI,EAF with DRI,2040,elect_td_ind,0.00115909393709419
+iron and steel,EAF with DRI,EAF with DRI,2045,elect_td_ind,0.0011201174213677375
+iron and steel,EAF with DRI,EAF with DRI,2050,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2055,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2060,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2065,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2070,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2075,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2080,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2085,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2090,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2095,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2100,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI,2015,refined liquids industrial,0.0025312
+iron and steel,EAF with DRI,EAF with DRI,2020,refined liquids industrial,0.0025312
+iron and steel,EAF with DRI,EAF with DRI,2025,refined liquids industrial,0.002456175394215364
+iron and steel,EAF with DRI,EAF with DRI,2030,refined liquids industrial,0.0023811507884307277
+iron and steel,EAF with DRI,EAF with DRI,2035,refined liquids industrial,0.0023061261826460913
+iron and steel,EAF with DRI,EAF with DRI,2040,refined liquids industrial,0.0022311015768614554
+iron and steel,EAF with DRI,EAF with DRI,2045,refined liquids industrial,0.0021560769710768195
+iron and steel,EAF with DRI,EAF with DRI,2050,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2055,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2060,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2065,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2070,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2075,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2080,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2085,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2090,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2095,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2100,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI,2015,wholesale gas,0.0143693
+iron and steel,EAF with DRI,EAF with DRI,2020,wholesale gas,0.0143693
+iron and steel,EAF with DRI,EAF with DRI,2025,wholesale gas,0.013943394868875959
+iron and steel,EAF with DRI,EAF with DRI,2030,wholesale gas,0.013517489737751917
+iron and steel,EAF with DRI,EAF with DRI,2035,wholesale gas,0.013091584606627876
+iron and steel,EAF with DRI,EAF with DRI,2040,wholesale gas,0.012665679475503835
+iron and steel,EAF with DRI,EAF with DRI,2045,wholesale gas,0.012239774344379794
+iron and steel,EAF with DRI,EAF with DRI,2050,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2055,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2060,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2065,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2070,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2075,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2080,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2085,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2090,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2095,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI,2100,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2015,delivered coal,0.0023401
+iron and steel,EAF with DRI,EAF with DRI CCS,2020,delivered coal,0.0023401
+iron and steel,EAF with DRI,EAF with DRI CCS,2025,delivered coal,0.0022707395859684625
+iron and steel,EAF with DRI,EAF with DRI CCS,2030,delivered coal,0.0022013791719369255
+iron and steel,EAF with DRI,EAF with DRI CCS,2035,delivered coal,0.002132018757905388
+iron and steel,EAF with DRI,EAF with DRI CCS,2040,delivered coal,0.002062658343873851
+iron and steel,EAF with DRI,EAF with DRI CCS,2045,delivered coal,0.0019932979298423136
+iron and steel,EAF with DRI,EAF with DRI CCS,2050,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2055,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2060,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2065,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2070,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2075,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2080,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2085,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2090,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2095,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2100,delivered coal,0.0019239375158107764
+iron and steel,EAF with DRI,EAF with DRI CCS,2015,elect_td_ind,0.001315
+iron and steel,EAF with DRI,EAF with DRI CCS,2020,elect_td_ind,0.001315
+iron and steel,EAF with DRI,EAF with DRI CCS,2025,elect_td_ind,0.0012760234842735475
+iron and steel,EAF with DRI,EAF with DRI CCS,2030,elect_td_ind,0.001237046968547095
+iron and steel,EAF with DRI,EAF with DRI CCS,2035,elect_td_ind,0.0011980704528206424
+iron and steel,EAF with DRI,EAF with DRI CCS,2040,elect_td_ind,0.00115909393709419
+iron and steel,EAF with DRI,EAF with DRI CCS,2045,elect_td_ind,0.0011201174213677375
+iron and steel,EAF with DRI,EAF with DRI CCS,2050,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2055,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2060,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2065,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2070,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2075,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2080,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2085,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2090,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2095,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2100,elect_td_ind,0.001081140905641285
+iron and steel,EAF with DRI,EAF with DRI CCS,2015,refined liquids industrial,0.0025312
+iron and steel,EAF with DRI,EAF with DRI CCS,2020,refined liquids industrial,0.0025312
+iron and steel,EAF with DRI,EAF with DRI CCS,2025,refined liquids industrial,0.002456175394215364
+iron and steel,EAF with DRI,EAF with DRI CCS,2030,refined liquids industrial,0.0023811507884307277
+iron and steel,EAF with DRI,EAF with DRI CCS,2035,refined liquids industrial,0.0023061261826460913
+iron and steel,EAF with DRI,EAF with DRI CCS,2040,refined liquids industrial,0.0022311015768614554
+iron and steel,EAF with DRI,EAF with DRI CCS,2045,refined liquids industrial,0.0021560769710768195
+iron and steel,EAF with DRI,EAF with DRI CCS,2050,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2055,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2060,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2065,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2070,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2075,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2080,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2085,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2090,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2095,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2100,refined liquids industrial,0.002081052365292183
+iron and steel,EAF with DRI,EAF with DRI CCS,2015,wholesale gas,0.0143693
+iron and steel,EAF with DRI,EAF with DRI CCS,2020,wholesale gas,0.0143693
+iron and steel,EAF with DRI,EAF with DRI CCS,2025,wholesale gas,0.013943394868875959
+iron and steel,EAF with DRI,EAF with DRI CCS,2030,wholesale gas,0.013517489737751917
+iron and steel,EAF with DRI,EAF with DRI CCS,2035,wholesale gas,0.013091584606627876
+iron and steel,EAF with DRI,EAF with DRI CCS,2040,wholesale gas,0.012665679475503835
+iron and steel,EAF with DRI,EAF with DRI CCS,2045,wholesale gas,0.012239774344379794
+iron and steel,EAF with DRI,EAF with DRI CCS,2050,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2055,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2060,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2065,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2070,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2075,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2080,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2085,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2090,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2095,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,EAF with DRI CCS,2100,wholesale gas,0.011813869213255753
+iron and steel,EAF with DRI,Hydrogen-based DRI,2015,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2020,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2025,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2030,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2035,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2040,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2045,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2050,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2055,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2060,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2065,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2070,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2075,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2080,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2085,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2090,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2095,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2100,elect_td_ind,0.0012403
+iron and steel,EAF with DRI,Hydrogen-based DRI,2015,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2020,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2025,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2030,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2035,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2040,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2045,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2050,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2055,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2060,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2065,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2070,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2075,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2080,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2085,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2090,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2095,H2 industrial,0.0143693
+iron and steel,EAF with DRI,Hydrogen-based DRI,2100,H2 industrial,0.0143693
+iron and steel,EAF with scrap,EAF with scrap,2015,elect_td_ind,0.0015474
+iron and steel,EAF with scrap,EAF with scrap,2020,elect_td_ind,0.0015474
+iron and steel,EAF with scrap,EAF with scrap,2025,elect_td_ind,0.00149582
+iron and steel,EAF with scrap,EAF with scrap,2030,elect_td_ind,0.00144424
+iron and steel,EAF with scrap,EAF with scrap,2035,elect_td_ind,0.00139266
+iron and steel,EAF with scrap,EAF with scrap,2040,elect_td_ind,0.00134108
+iron and steel,EAF with scrap,EAF with scrap,2045,elect_td_ind,0.0012894999999999998
+iron and steel,EAF with scrap,EAF with scrap,2050,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2055,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2060,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2065,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2070,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2075,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2080,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2085,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2090,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2095,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2100,elect_td_ind,0.00123792
+iron and steel,EAF with scrap,EAF with scrap,2015,refined liquids industrial,5.627000000000001e-4
+iron and steel,EAF with scrap,EAF with scrap,2020,refined liquids industrial,5.627000000000001e-4
+iron and steel,EAF with scrap,EAF with scrap,2025,refined liquids industrial,5.439433333333334e-4
+iron and steel,EAF with scrap,EAF with scrap,2030,refined liquids industrial,5.251866666666667e-4
+iron and steel,EAF with scrap,EAF with scrap,2035,refined liquids industrial,5.0643e-4
+iron and steel,EAF with scrap,EAF with scrap,2040,refined liquids industrial,4.8767333333333337e-4
+iron and steel,EAF with scrap,EAF with scrap,2045,refined liquids industrial,4.689166666666667e-4
+iron and steel,EAF with scrap,EAF with scrap,2050,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2055,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2060,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2065,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2070,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2075,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2080,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2085,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2090,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2095,refined liquids industrial,4.5016e-4
+iron and steel,EAF with scrap,EAF with scrap,2100,refined liquids industrial,4.5016e-4
