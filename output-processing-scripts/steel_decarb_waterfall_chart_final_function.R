@@ -354,7 +354,7 @@ return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", 
                             mutate(scenario = factor(scenario, levels = c("1.5C", "ref_MEF", "Reference"))),
                           aes(x=year, y=value, color = scenario)) +
   geom_line(size = 1.2) +
-  labs(title = "Global steel production and consumption", x="", y="Mt") +
+  labs(title = "Global steel demand", x="", y="Mt") +
   scale_y_continuous(limits = c(0, NA)) +
   scale_color_manual(labels = c("Reference","Material efficiency","Material efficiency and price increase") , 
                      values = c("Reference" = "#E31A1C", "ref_MEF"="#3182bd", "1.5C"="#33A02C"),

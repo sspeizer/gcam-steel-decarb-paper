@@ -881,6 +881,15 @@ emis_intensity_global_fig <- ggplot(data=emissions_intensity_2 %>% filter(region
 ggsave(paste0(results_dir, "/ironsteel_emissions_intensity_global.png"), 
        plot = emis_intensity_global_fig, height = 6, width = 9, units = "in")
 
+# emissions intensity figure for all regions in 1.5C scenario, and global in reference
+emis_intensity_fig_2 <- ggplot(data=emissions_intensity_2 %>%
+                                 filter(scenario == "1.5C" | (scenario == "Reference" & region == "Global")), 
+                               aes(x=year, y = em_intensity, color=region, linetype = scenario))+
+  geom_line(size = 1) +
+  scale_linetype_manual(values = c("dotted", "solid"), name = "Scenario") + 
+  scale_color_manual(values = regions_w_global, name = "Region") + 
+  labs(title = expression(bold(Steel~CO[2]~emissions~"intensity")), x="", y=expression(t~CO[2]/t~steel)) +
+  plot_theme 
 
 # STEEL PRICES -------------
 # need to calculate the weighted average of prices for the aggregated regions and global
@@ -1207,6 +1216,9 @@ elec_gen_tech_sel_plot <- ggplot(data=filter(elec_gen_by_tech_grouped, region ==
   labs(title = "Global electricity generation by technology", x="", y="EJ") +
   scale_fill_manual(values = electricity_tech_pal_grouped, name = "Technology")+
   plot_theme 
+ggsave(paste0(fig_dir, "/electricity_production_tech_global_grp_sel.png"), 
+       elec_gen_tech_sel_plot,
+       height = 6, width = 11, units = "in")
 
 # GREENHOUSE GAS EMISSIONS BY SECTOR AND GAS -------------------
 # set scenario labels for relevant queries
@@ -2417,7 +2429,7 @@ steel_CO2_plots_1 <- plot_grid(steel_CO2_total_global + theme(legend.position = 
 # steel_CO2_plots_2 <- plot_grid(steel_CO2_share, direct_indirect_CO2_steel_global, 
 #                                ncol = 2, nrow = 1, align = "hv", axis = "tb", 
 #                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
-steel_CO2_plots_2 <- plot_grid(emis_intensity_fig, direct_indirect_CO2_steel_global, 
+steel_CO2_plots_2 <- plot_grid(emis_intensity_fig_2, direct_indirect_CO2_steel_global, 
                                ncol = 2, nrow = 1, align = "hv", axis = "b", 
                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
 plot_grid(steel_CO2_plots_1, steel_CO2_plots_2, 
@@ -2439,25 +2451,25 @@ MEF_charts_comb <- plot_grid(MEF_chart,
                              labels = c("a", "b"), label_size = 13)
 
 MEF_charts_comb_2 <- plot_grid(MEF_chart + 
-                                 labs(title = expression(bold("Global steel production and\nconsumption"))) + 
+                                 labs(title = expression(bold("Global steel demand"))) + 
                                  theme(legend.position = "bottom",
                                        legend.box.background = NULL) +
                                  guides(color = guide_legend(nrow = 3)),
-                               prices_fig_global + 
-                                 labs(title = expression(bold("Global weighted average steel price\nrelative to reference scenario"))) + 
-                                 theme(legend.position = "bottom",
-                                       legend.box.background = NULL) +
-                                 guides(color = guide_legend(nrow = 4)),
+                               # prices_fig_global + 
+                               #   labs(title = expression(bold("Global weighted average steel price\nrelative to reference scenario"))) + 
+                               #   theme(legend.position = "bottom",
+                               #         legend.box.background = NULL) +
+                               #   guides(color = guide_legend(nrow = 4)),
                                mat_eff_pie + 
                                  labs(title = expression(bold("Contribution of material efficiency\nmeasures"))) + 
                                  theme(legend.position = "bottom",
-                                       plot.margin = margin(t = 0.95, b = 0.95, l = 2, r = 2, unit = "cm")) + 
+                                       plot.margin = margin(t = 0.95, b = 0.95, l = 2.85, r = 2.85, unit = "cm")) + 
                                  guides(fill = guide_legend(nrow = 8)),
-                               nrow = 1, ncol = 3, align = "h", axis = "tb",
-                               labels = c("a", "b", "c"), label_size = 13)
+                               nrow = 1, ncol = 2, align = "h", axis = "tb",
+                               labels = c("a", "b"), label_size = 13)
 
 prod_en_fuel_global <- plot_grid(production_tech_global, energy_fuel_global, nrow = 2, ncol = 1,
-                                 labels = c("d", "e"), label_size = 13, align = "hv", axis = "lr")
+                                 labels = c("c", "d"), label_size = 13, align = "hv", axis = "lr")
 
 # plot_grid(MEF_charts_comb, prod_en_fuel_global, nrow = 2, ncol = 1, rel_heights = c(1, 1.5))
 
@@ -2467,7 +2479,7 @@ ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global.png"), hei
 
 plot_grid(MEF_charts_comb_2, prod_en_fuel_global, 
           nrow = 2, ncol = 1, label_size = 13, rel_heights = c(1, 1.5))
-ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global_v2.png"), height = 15, width = 13, units = "in")
+ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global_v2.png"), height = 15, width = 10, units = "in")
 
 ggsave(paste0(fig_dir, "/main_fig_prod_tech_energy_fuel_global.png"), 
        plot = plot_grid(production_tech_global, energy_fuel_global, nrow = 2, ncol = 1,
@@ -2519,9 +2531,12 @@ H2_comb_plot2 <- plot_grid(hydrogen_cons_steel_share_global_plot +
                            ncol = 2, nrow = 1, labels = c("e", "f"), rel_widths = c(1, 1.5),
                            label_size = 13, align = "h", axis = "b")
 
-plot_grid(CO2_sector_global_combined_plot_2, CO2_AR6_elec_comb_plot, 
+ggsave(paste0(fig_dir, "/H2_comb_fig.png"), H2_comb_plot2,
+       height = 8, width = 15, units = "in")
+
+plot_grid(CO2_sector_global_combined_plot_2, CO2_AR6_elec_comb_plot,
           H2_comb_plot2, nrow = 3, ncol = 1, rel_heights = c(1.3, 1, 1))
-ggsave(paste0(fig_dir, "/main_fig_CO2_sector_AR6_elec_H2.png"),  
+ggsave(paste0(fig_dir, "/main_fig_CO2_sector_AR6_elec_H2.png"),
        height = 15, width = 13, units = "in")
 
 ## Regional production by technology and energy use by fuel for all main scenarios --------------
