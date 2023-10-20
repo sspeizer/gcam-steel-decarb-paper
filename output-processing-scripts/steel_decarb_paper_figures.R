@@ -221,22 +221,22 @@ blank_theme <- pie_theme+
 
 scenario_colors <- c("Reference"= "#E31A1C",
                      "1.5C delay" = "#3182bd",
-                     "1.5C" = "#33A02C",
+                     "1.5C" = "#8C510A",
                      "1.5C no CCS" = "#756bb1")
 
 scenario_colors_IPCC_comp <- c(scenario_colors,
                                "AR6 reference" = "tan",
                                "AR6 1.5C" = "gray")
 
-scenario_colors_no_new_EU_gas <- c("1.5C" = "#33A02C",
+scenario_colors_no_new_EU_gas <- c("1.5C" = "#8C510A",
                                    "1.5C no CCS" = "334FFF",
                                    "1.5C no new EU+UK gas" = "#3182bd")
 
 scenario_colors_all_runs <- c("Reference" = "#E31A1C", "Reference EE" = "tomato", "Reference MEF" = "salmon2", "Reference recyc" = "plum1",
-                              "Reference EE+MEF+recyc" = "pink", "1.5C" = "#33A02C",
-                              "1.5C no steel strategies" = "lightgoldenrod", "1.5C EE" = "yellow3", "1.5C EE+MEF" = "darkolivegreen2", "1.5C EE+MEF+recyc" = "palegreen3", 
-                              "1.5C EE+MEF+recyc+H2" = "seagreen3", "1.5C EE+MEF+recyc+CCS" = "darkgreen",  
-                              "1.5C EE+MEF+H2+CCS low scrap" = "peru", "1.5C EE+H2+CCS low scrap" = "saddlebrown",
+                              "Reference EE+MEF+recyc" = "pink", "1.5C" = "#8C510A",
+                              "1.5C no steel strategies" = "wheat", "1.5C EE" = "lightgoldenrod3", "1.5C EE+MEF" = "yellow3", "1.5C EE+MEF+recyc" = "goldenrod", 
+                              "1.5C EE+MEF+recyc+H2" = "darkorange3", "1.5C EE+MEF+recyc+CCS" = "#FF7F00",  
+                              "1.5C EE+MEF+H2+CCS low scrap" = "gray", "1.5C EE+H2+CCS low scrap" = "lavenderblush4",
                               "1.5C no CCS" = "#756bb1", "1.5C delay" = "#3182bd", "1.5C delay no CCS" = "skyblue")
 
 # tech_colors  <- c("BF-CCS" = "#FB9A99",
@@ -248,7 +248,7 @@ scenario_colors_all_runs <- c("Reference" = "#E31A1C", "Reference EE" = "tomato"
 #                   "DRI-EAF-H2" = "#FCD581",
 #                   "BF-H2" = "darkgoldenrod3")
 
-tech_colors  <- c("BF-biomass" = "#33A02C",
+tech_colors  <- c("BF-biomass" = "#8C510A",
                   "BF-BOF" = "#E31A1C",
                   "BF-CCS" = "#FB9A99",
                   "BF-H2" = "darkgoldenrod3",
@@ -261,7 +261,7 @@ subsector_colors  <- c("BF-BOF" = "#E31A1C",
                        "DRI-EAF" = "#3182bd",
                        "EAF-scrap" = "#756bb1")
 
-mat_eff_colors <- c("Direct reuse" = "#33A02C" , 
+mat_eff_colors <- c("Direct reuse" = "#8C510A" , 
                     'Optimized building design' ="#E31A1C", 
                     'High-strength steel'="#FB9A99", 
                     'Lifetime extension'="darkgoldenrod3", 
@@ -283,11 +283,11 @@ regions_w_BAT_EU_sep <- c("China" = "lightsalmon4","EU-12"="#FCD581","EU-15"="kh
                       "Japan"="#9ecae1","ROW"="mediumpurple","South Korea"="plum",
                       "US"="lightpink", "BAT coefficient" = "black")
 
-fuel_colors <- c("biomass" = "#33A02C", "coal" = "gray27",
+fuel_colors <- c("biomass" = "#8C510A", "coal" = "gray27",
                  "coal with CCS" = "gray57", "electricity" = "#756bb1","gas" = "#3182bd", 
                  "gas with CCS" = "#9ecae1","hydrogen" = "#FCD581",
                  "refined liquids" = "#E31A1C", "refined liquids with CCS" = "#FB9A99")
-fuel_colors_final_en <- c("biomass" = "#33A02C", "traditional biomass" = "lightsalmon4", 
+fuel_colors_final_en <- c("biomass" = "#8C510A", "traditional biomass" = "lightsalmon4", 
                           "coal" = "gray27", "district heat" = "gray57", 
                           "electricity" = "#756bb1","gas" = "#3182bd", 
                           "hydrogen" = "#FCD581", "refined liquids" = "#E31A1C", 
@@ -295,24 +295,24 @@ fuel_colors_final_en <- c("biomass" = "#33A02C", "traditional biomass" = "lights
 
 hydrogen_pal <- c("blue"="#3182bd", "grey"="gray57", "green"="#33A02C")
 
-hydrogen_tech_pal <- c("biomass to H2" = "#33A02C", "biomass to H2 CCS" = "lightsalmon4",
+hydrogen_tech_pal <- c("biomass to H2" = "#FF7F00", "biomass to H2 CCS" = "lightsalmon4",
                        "electrolysis" = "#756bb1","thermal splitting" = "#FCD581", 
                        "coal chemical CCS" = "gray57", "gas steam reforming CCS" = "#9ecae1", 
                        "gas steam reforming" = "#3182bd")
 
-sector_colors <- c("agriculture" = "plum", "buildings" = "lightsalmon4", 
+sector_colors <- c("agriculture" = "plum", "buildings" = "#FF7F00", 
                        "industry" = "#FB9A99", "iron and steel" = "#E31A1C", 
                        "transportation" = "#3182bd", "other energy supply" = "#9ecae1", 
-                       "LULUCF" = "#33A02C", "hydrogen" = "#FCD581", "electricity"= "#756bb1")
-sector_colors_CO2 <- c("agriculture" = "plum", "buildings" = "lightsalmon4", 
+                       "LULUCF" = "lightsalmon4", "hydrogen" = "#FCD581", "electricity"= "#756bb1")
+sector_colors_CO2 <- c("agriculture" = "plum", "buildings" = "#FF7F00", 
                        "industry" = "#FB9A99", "iron and steel" = "#E31A1C", 
                        "transportation" = "#3182bd", "other energy supply" = "#9ecae1", 
-                       "LULUCF" = "#33A02C", "hydrogen" = "#FCD581", "electricity"= "#756bb1", 
+                       "LULUCF" = "lightsalmon4", "hydrogen" = "#FCD581", "electricity"= "#756bb1", 
                        "CO2 removal" = "gray57")
-sector_colors_energy <- c("agriculture" = "plum", "buildings" = "lightsalmon4", 
+sector_colors_energy <- c("agriculture" = "plum", "buildings" = "#FF7F00", 
                        "industry" = "#FB9A99", "iron and steel" = "#E31A1C", 
                        "transportation" = "#3182bd", "water" = "#9ecae1", 
-                       "LULUCF" = "#33A02C", "hydrogen" = "#FCD581", "electricity"= "#756bb1", 
+                       "LULUCF" = "lightsalmon4", "hydrogen" = "#FCD581", "electricity"= "#756bb1", 
                        "CO2 removal" = "gray57")
 # sector_colors_CO2 <- c("agriculture" = "#3182bd", "buildings" = "#9ecae1", 
 #                        "industry" = "lightsalmon4", "iron and steel" = "#E31A1C", 
@@ -328,7 +328,7 @@ electricity_tech_pal <- c("biomass" = "#33A02C", "biomass (CCS)" = "lightgreen",
                           "PV" = "#FCD581", "refined liquids" = "#E31A1C", "refined liquids (CCS)" = "#FB9A99", 
                           "wind" = "plum")
 
-electricity_tech_pal_grouped <- c("biomass" = "#33A02C", "biomass CCS" = "lightsalmon4", 
+electricity_tech_pal_grouped <- c("biomass" = "#FF7F00", "biomass CCS" = "lightsalmon4", 
                            "geothermal" = "#756bb1", "hydro" = "#9ecae1", "solar" = "#FCD581",
                            "wind" = "#FB9A99", "fossil CCS" = "gray57", "nuclear" = "plum", 
                           "refined liquids" = "#E31A1C", "gas" = "#3182bd", "coal" = "gray27")
@@ -1905,7 +1905,7 @@ GHG_plot_AR6 <- ggplot(all_total_ghg_em %>% filter(year >= 2005 & year %in% plot
   plot_theme
 
 CO2_GHG_plot_AR6 <- plot_grid(CO2_plot_AR6, GHG_plot_AR6,
-                              ncol = 2, nrow = 1, labels = c("a", "b"), label_size = 13,
+                              ncol = 2, nrow = 1, labels = c("A", "B"), label_size = 13,
                               rel_widths = c(0.65, 1))
 
 ggsave(paste0(fig_dir, "/co2_ghg_emis_total_global_IPCC_comp.png"), plot = CO2_GHG_plot_AR6 , 
@@ -1983,7 +1983,7 @@ gdp_plot <- ggplot(gdp %>% filter(year >= 2005 & scenario == "1.5C") %>%
   plot_theme
 
 pop_GDP_plot <- plot_grid(pop_plot, gdp_plot, ncol = 1, nrow = 2, 
-                          labels = c("a", "b"), label_size = 13)
+                          labels = c("A", "B"), label_size = 13)
 
 ggsave(paste0(fig_dir, "/pop_GDP.png"), plot = pop_GDP_plot, 
        height = 10, width = 10, units = "in")
@@ -2029,7 +2029,7 @@ final_en_fuel_plot <- ggplot(data=filter(final_ene_sect_fuel_total, region == "G
 
 # combine and save
 final_en_plot <- plot_grid(final_en_sector_plot, final_en_fuel_plot, nrow = 2, ncol = 1,
-                           labels = c("a", "b"), label_size = 13)
+                           labels = c("A", "B"), label_size = 13)
 
 ggsave(paste0(fig_dir, "/final_en_sect_fuel_global.png"), plot = final_en_plot, 
        height = 10, width = 10, units = "in")
@@ -2045,7 +2045,7 @@ CO2_sequestration_steel$scenario <- factor(CO2_sequestration_steel$scenario,
                                            levels = scenarios_all_sel, labels=scenario_labels_all_sel)
 
 CO2_sequestration_steel_global_all_runs <- ggplot(data=filter(CO2_sequestration_steel, region == "Global", year %in% plot_years, scenario!="NA") %>%
-                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b")),
+                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "A", "B")),
                                           aes(x=year, y=value/1000, color=scenario, size = line_width)) +
   geom_line() +
   labs(title = bquote(bold(Global~CO[2]~sequestration~by~"CCS-equipped"~steel~technologies)), x="", y=bquote(Gt~CO[2])) +
@@ -2425,30 +2425,30 @@ steel_CO2_plots_1 <- plot_grid(steel_CO2_total_global + theme(legend.position = 
                                steel_CO2_total_cum_global + 
                                  theme(legend.margin = margin(c(5,15,5,5))),
                                ncol = 2, nrow = 1, align = "hv", axis = "tb",
-                               rel_widths = c(1, 1), labels = c("a", "b"), label_size = 13)
+                               rel_widths = c(1, 1), labels = c("A", "B"), label_size = 13)
 # steel_CO2_plots_2 <- plot_grid(steel_CO2_share, direct_indirect_CO2_steel_global, 
 #                                ncol = 2, nrow = 1, align = "hv", axis = "tb", 
-#                                rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
+#                                rel_widths = c(1, 1), labels = c("C", "D"), label_size = 13)
 steel_CO2_plots_2 <- plot_grid(emis_intensity_fig_2, direct_indirect_CO2_steel_global, 
                                ncol = 2, nrow = 1, align = "hv", axis = "b", 
-                               rel_widths = c(1, 1), labels = c("c", "d"), label_size = 13)
+                               rel_widths = c(1, 1), labels = c("C", "D"), label_size = 13)
 plot_grid(steel_CO2_plots_1, steel_CO2_plots_2, 
           waterfall_chart + plot_theme + theme(axis.text.x = element_text(angle = 50, hjust = 1)), 
-          ncol = 1, nrow = 3, labels = c("", "", "e"), 
+          ncol = 1, nrow = 3, labels = c("", "", "E"), 
           label_size = 13, rel_heights = c(1, 1, 1.5))
-ggsave(paste0(fig_dir, "/main_fig_emissions_steel.png"), height = 15, width = 11, units = "in")
+ggsave(paste0(fig_dir, "/fig_2_main_fig_emissions_steel.png"), height = 15, width = 11, units = "in")
 
 ## Material efficiency, price of steel, production by tech, and energy use; global, all scenarios ---------
 # combine material efficiency pie chart and production charts
 # MEF_charts_comb <- plot_grid(MEF_chart + theme(legend.position = "bottom"),
 #                              mat_eff_bar, 
 #                              nrow = 1, ncol = 2, align = "v", axis = "tb",
-#                              labels = c("a", "b"), label_size = 13)
+#                              labels = c("A", "B"), label_size = 13)
 # 
 MEF_charts_comb <- plot_grid(MEF_chart,
                              mat_eff_pie,
                              nrow = 2, ncol = 1, align = "h", axis = "lr",
-                             labels = c("a", "b"), label_size = 13)
+                             labels = c("A", "B"), label_size = 13)
 
 MEF_charts_comb_2 <- plot_grid(MEF_chart + 
                                  labs(title = expression(bold("Global steel demand"))) + 
@@ -2466,50 +2466,50 @@ MEF_charts_comb_2 <- plot_grid(MEF_chart +
                                        plot.margin = margin(t = 0.95, b = 0.95, l = 2.85, r = 2.85, unit = "cm")) + 
                                  guides(fill = guide_legend(nrow = 8)),
                                nrow = 1, ncol = 2, align = "h", axis = "tb",
-                               labels = c("a", "b"), label_size = 13)
+                               labels = c("A", "B"), label_size = 13)
 
 prod_en_fuel_global <- plot_grid(production_tech_global, energy_fuel_global, nrow = 2, ncol = 1,
-                                 labels = c("c", "d"), label_size = 13, align = "hv", axis = "lr")
+                                 labels = c("C", "D"), label_size = 13, align = "hv", axis = "lr")
 
 # plot_grid(MEF_charts_comb, prod_en_fuel_global, nrow = 2, ncol = 1, rel_heights = c(1, 1.5))
 
 plot_grid(MEF_chart, mat_eff_pie, prod_en_fuel_global, 
-          nrow = 3, ncol = 1, labels = c("a", "b", ""), label_size = 13, rel_heights = c(1, 1, 2))
+          nrow = 3, ncol = 1, labels = c("A", "B", ""), label_size = 13, rel_heights = c(1, 1, 2))
 ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global.png"), height = 15, width = 11, units = "in")
 
 plot_grid(MEF_charts_comb_2, prod_en_fuel_global, 
           nrow = 2, ncol = 1, label_size = 13, rel_heights = c(1, 1.5))
-ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global_v2.png"), height = 15, width = 10, units = "in")
+ggsave(paste0(fig_dir, "/fig_3_main_fig_mateff_prod_tech_energy_fuel_global_v2.png"), height = 15, width = 10, units = "in")
 
 ggsave(paste0(fig_dir, "/main_fig_prod_tech_energy_fuel_global.png"), 
        plot = plot_grid(production_tech_global, energy_fuel_global, nrow = 2, ncol = 1,
-                        labels = c("a", "b"), label_size = 13, align = "hv", axis = "lr"), 
+                        labels = c("A", "B"), label_size = 13, align = "hv", axis = "lr"), 
        height = 8, width = 11, units = "in")
 
 ## Production by tech and energy use, regional, 1.5C scenario -------------
 
 plot_grid(production_tech_1p5_regions, energy_fuel_1p5_regions,
-          labels = c("a", "b"), nrow = 2, ncol = 1, label_size = 13, 
+          labels = c("A", "B"), nrow = 2, ncol = 1, label_size = 13, 
           align = "hv", axis = "lrtb")
-ggsave(paste0(fig_dir, "/main_fig_prod_tech_energy_fuel_1p5_regions.png"),  
+ggsave(paste0(fig_dir, "/fig_4_main_fig_prod_tech_energy_fuel_1p5_regions.png"),  
        height = 13, width = 11, units = "in")
 
 
 ## Overall emissions and emissions by sector ------------------
 
 CO2_GHG_plot_AR6_2 <- plot_grid(CO2_plot_AR6, GHG_plot_AR6,
-                              ncol = 2, nrow = 1, labels = c("a", "b"), label_size = 13,
+                              ncol = 2, nrow = 1, labels = c("A", "B"), label_size = 13,
                               rel_widths = c(0.7, 1))
 
 CO2_sector_global_combined_plot <- plot_grid(total_CO2_emissions_sector_global_plot + theme(legend.position = "none"), 
                                              total_CO2_emissions_sector_global_cum_plot,
                                              nrow = 1, ncol = 2, rel_widths = c(1.7, 1),
-                                             labels = c("c", "d"), label_size = 13, align = "h", axis = "b")
+                                             labels = c("C", "D"), label_size = 13, align = "h", axis = "b")
 
 elec_H2_comb_plot <- plot_grid(elec_gen_tech_sel_plot, 
                                hydrogen_prod_tech_sel_plot, 
                                hydrogen_cons_steel_share_global_plot,
-                               ncol = 3, nrow = 1, labels = c("e", "f", "g"), label_size = 13)
+                               ncol = 3, nrow = 1, labels = c("E", "F", "G"), label_size = 13)
 
 plot_grid(CO2_GHG_plot_AR6_2, CO2_sector_global_combined_plot, nrow = 2, ncol = 1)
 ggsave(paste0(fig_dir, "/CO2_GHG_emissions_AR6_sector.png"),  
@@ -2519,16 +2519,16 @@ ggsave(paste0(fig_dir, "/CO2_GHG_emissions_AR6_sector.png"),
 CO2_sector_global_combined_plot_2 <- plot_grid(total_CO2_emissions_sector_global_plot + theme(legend.position = "none"), 
                                              total_CO2_emissions_sector_global_cum_dif_1p5_plot,
                                              nrow = 1, ncol = 2, rel_widths = c(1.7, 1),
-                                             labels = c("a", "b"), label_size = 13, align = "h", axis = "b")
+                                             labels = c("A", "B"), label_size = 13, align = "h", axis = "b")
 CO2_AR6_elec_comb_plot <- plot_grid(CO2_plot_AR6 + theme(legend.position = "right"), elec_gen_tech_sel_plot,
-                                    nrow = 1, ncol = 2, labels = c("c", "d"),
+                                    nrow = 1, ncol = 2, labels = c("C", "D"),
                                     rel_widths = c(1, 1.5), label_size = 13, 
                                     align = "h", axis = "b")
 
 H2_comb_plot2 <- plot_grid(hydrogen_cons_steel_share_global_plot + 
                              labs(title = "Steel sector's share of\ntotal final hydrogen use") + 
                              theme(legend.box.margin = margin(r = 11)), hydrogen_prod_tech_sel_plot, 
-                           ncol = 2, nrow = 1, labels = c("e", "f"), rel_widths = c(1, 1.5),
+                           ncol = 2, nrow = 1, labels = c("E", "F"), rel_widths = c(1, 1.5),
                            label_size = 13, align = "h", axis = "b")
 
 ggsave(paste0(fig_dir, "/H2_comb_fig.png"), H2_comb_plot2,
@@ -2536,7 +2536,7 @@ ggsave(paste0(fig_dir, "/H2_comb_fig.png"), H2_comb_plot2,
 
 plot_grid(CO2_sector_global_combined_plot_2, CO2_AR6_elec_comb_plot,
           H2_comb_plot2, nrow = 3, ncol = 1, rel_heights = c(1.3, 1, 1))
-ggsave(paste0(fig_dir, "/main_fig_CO2_sector_AR6_elec_H2.png"),
+ggsave(paste0(fig_dir, "/fig_5_main_fig_CO2_sector_AR6_elec_H2.png"),
        height = 15, width = 13, units = "in")
 
 ## Regional production by technology and energy use by fuel for all main scenarios --------------
@@ -2559,7 +2559,7 @@ for (i in regions_aggregated) {
     plot_theme
   
   plot_grid(prod_plot, energy_plot, nrow = 2, ncol = 1,
-            labels = c("a", "b"), label_size = 13, align = "hv", axis = "lr")
+            labels = c("A", "B"), label_size = 13, align = "hv", axis = "lr")
   
   ggsave(paste0(fig_dir, "/ironsteel_comb_prod_tech_energy_fuel_", i, ".png"), height = 12, width = 12, units = "in")
   
@@ -2657,7 +2657,7 @@ energy_plot <- ggplot(data=filter(x_eu_gas_sens, region == "EU+UK", year %in% pl
   plot_theme
 
 plot_grid(prod_plot, energy_plot, nrow = 2, ncol = 1,
-          labels = c("a", "b"), label_size = 13, align = "hv", axis = "lr")
+          labels = c("A", "B"), label_size = 13, align = "hv", axis = "lr")
 
 ggsave(paste0(fig_dir, "/ironsteel_comb_prod_tech_energy_fuel_EU_no_new_EU_gas.png"), height = 12, width = 16, units = "in")
 
@@ -2718,7 +2718,7 @@ CO2_emissions_sector_nobio_all_runs$scenario <- factor(CO2_emissions_sector_nobi
 ironsteel_CO2_all_runs <- filter(CO2_emissions_sector_nobio_all_runs, sector=="iron and steel", scenario!="NA")
 
 steel_CO2_total_global_all_runs <- ggplot(data=filter(ironsteel_CO2_all_runs, region == "Global", year %in% plot_years, scenario!="NA") %>%
-                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b"),
+                                            mutate(line_width = ifelse(scenario %in% scenario_labels, "A", "B"),
                                                    scenario = factor(scenario, levels = rev(scenario_labels_all_sel))),
                                  aes(x=year, y=value/1000, color=scenario, size = line_width)) +
   geom_line() +
@@ -2730,7 +2730,7 @@ steel_CO2_total_global_all_runs <- ggplot(data=filter(ironsteel_CO2_all_runs, re
 # combine and save
 plot_grid(production_tech_global_all_runs, 
           steel_CO2_total_global_all_runs + theme(legend.margin = margin(c(5,18,5,5))),
-          ncol = 1, nrow = 2, labels = c("a", "b"), rel_heights = c(1.5, 1))
+          ncol = 1, nrow = 2, labels = c("A", "B"), rel_heights = c(1.5, 1))
 ggsave(paste0(fig_dir, "/all_scenarios_combined_fig.png"),  
        height = 14, width = 12, units = "in")
 
@@ -2755,7 +2755,7 @@ ironsteel_prices_agg_comp_ref$scenario <- factor(ironsteel_prices_agg_comp_ref$s
                                                  levels = scenarios_all_sel, labels = scenario_labels_all_sel)
 prices_fig_global_all_runs <- ggplot(data=ironsteel_prices_agg_comp_ref %>% 
                               filter(region == "Global" & year %in% plot_years & !is.na(scenario)) %>%
-                              mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b"),
+                              mutate(line_width = ifelse(scenario %in% scenario_labels, "A", "B"),
                                      scenario = factor(scenario, levels = rev(scenario_labels_all_sel))), 
                               aes(x=year, y = perc_dif_ref, color=scenario, size = line_width))+
   geom_line() +
@@ -2767,7 +2767,7 @@ ggsave(paste0(results_dir, "/ironsteel_prices_global_all_runs.png"), plot = pric
 
 prices_fig_global_all_1p5_runs <- ggplot(data=ironsteel_prices_agg_comp_ref %>% 
                                        filter(region == "Global" & year %in% plot_years & grepl("1.5", scenario) & !is.na(scenario)) %>%
-                                       mutate(line_width = ifelse(scenario %in% scenario_labels, "a", "b"),
+                                       mutate(line_width = ifelse(scenario %in% scenario_labels, "A", "B"),
                                               scenario = factor(scenario, levels = rev(scenario_labels_all_sel))), 
                                      aes(x=year, y = perc_dif_ref, color=scenario, size = line_width))+
   geom_line() +
@@ -2786,11 +2786,11 @@ steel_CO2_total_global_prices_all_runs <- plot_grid(prices_fig_global_all_1p5_ru
                                                       theme(plot.margin = margin(t = 0.7, unit = "cm")), 
                                                     steel_CO2_total_global_all_runs + theme(legend.box.margin = margin(r = 20)) + 
                                                       guides(color = guide_legend(override.aes = list(size=1))),
-                                                    ncol = 2, nrow = 1, labels = c("b", "c"), rel_widths = c(1, 2),
+                                                    ncol = 2, nrow = 1, labels = c("B", "C"), rel_widths = c(1, 2),
                                                     align = "h", axis = "b")
 
 plot_grid(production_tech_global_all_runs, 
           steel_CO2_total_global_prices_all_runs,
-          ncol = 1, nrow = 2, labels = c("a", ""), rel_heights = c(1.5, 1))
-ggsave(paste0(fig_dir, "/main_fig_all_scenarios_combined_fig_comp.png"),  
+          ncol = 1, nrow = 2, labels = c("A", ""), rel_heights = c(1.5, 1))
+ggsave(paste0(fig_dir, "/fig_6_main_fig_all_scenarios_combined_fig_comp.png"),  
        height = 14, width = 12, units = "in")

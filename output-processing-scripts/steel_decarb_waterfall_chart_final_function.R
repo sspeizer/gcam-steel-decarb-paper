@@ -263,7 +263,7 @@ results_final$`Mitigation measure` <- factor(results_final$`Mitigation measure`,
 
 reduction_colors <- c( "Energy efficiency contribution" = "gray50",
                        "Material efficiency contribution" = "darkturquoise",
-                       "Price-induced contribution" = "#33A02C",
+                       "Price-induced contribution" = "#8C510A",
                        "High scrap use contribution" = "#756bb1",
                        "H2 use contribution" = "darkgoldenrod3",
                        "CCS contribution" ="#3182bd",
@@ -357,7 +357,7 @@ return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", 
   labs(title = "Global steel demand", x="", y="Mt") +
   scale_y_continuous(limits = c(0, NA)) +
   scale_color_manual(labels = c("Reference","Material efficiency","Material efficiency and price increase") , 
-                     values = c("Reference" = "#E31A1C", "ref_MEF"="#3182bd", "1.5C"="#33A02C"),
+                     values = c("Reference" = "#E31A1C", "ref_MEF"="#3182bd", "1.5C"="#8C510A"),
                      name = "") +
   plot_theme
 
