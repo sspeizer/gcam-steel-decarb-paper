@@ -406,6 +406,18 @@ ggplot(data=filter(CO2_emissions %>%
   plot_theme 
 ggsave(paste0(fig_dir, "/co2_emissions_FFI_Global.png"), height = 6, width = 9, units = "in")
 
+# plot for graphical abstract
+ggplot(data=filter(CO2_emissions %>%
+                     mutate(scenario = factor(scenario, levels = scenarios, labels=scenario_labels)), 
+                   region == "Global", scenario =="1.5C", year >= 2010, year <= 2050),
+       aes(x=year, y=value / 1000, color = scenario)) +
+  geom_line(size = 1.2) +
+  scale_color_manual(values = scenario_colors, name = "Scenario", limits = force, drop = TRUE) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "black", size = 1) +
+  labs(title = bquote(bold(Global~fossil~fuel~and~industry~CO[2]~emissions)), x="", y=bquote(Gt~CO[2])) +
+  plot_theme 
+ggsave(paste0(fig_dir, "/co2_emissions_FFI_Global_1p5_only.png"), height = 3, width = 4.5, units = "in")
+
 
 # STEEL CO2 EMISSIONS BY REGION PIE AND BAR CHART --------------
 CO2_emissions_sector_nobio$scenario <- factor(CO2_emissions_sector_nobio$scenario,

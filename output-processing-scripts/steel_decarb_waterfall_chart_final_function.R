@@ -269,6 +269,14 @@ reduction_colors <- c( "Energy efficiency contribution" = "gray50",
                        "CCS contribution" ="#3182bd",
                        "1.5C emissions" = "#E31A1C")
 
+reduction_colors_2 <- c("1.5C emissions" = "#f3a1a1", 
+                        "Energy efficiency contribution" = "#fff2cc",
+                       "Material efficiency contribution" = "#96c0e0",
+                       "Price-induced contribution" = "#f9d58b",
+                       "High scrap use contribution" = "#b5d8a6",
+                       "H2 use contribution" = "#dae3f3",
+                       "CCS contribution" ="#d6a9e2")
+
 for (i in regions_aggregated) {
   ggplot(data=filter(results_final, region == i, `Mitigation measure` != "Reference emissions"),
          aes(x=as.numeric(year), y=abs(reduction), fill=`Mitigation measure`)) +
@@ -360,6 +368,19 @@ return_plot_MEF <- ggplot(data=filter(ironsteel_production, region == "Global", 
                      values = c("Reference" = "#E31A1C", "ref_MEF"="#3182bd", "1.5C"="#8C510A"),
                      name = "") +
   plot_theme
+
+# plot for graphical abstract
+waterfall(select(waterfall_data_global %>% mutate(reduction = reduction / 1000), c(Mitigation.measure, reduction)), calc_total = TRUE,
+                         total_rect_color = "black", total_axis_text = "1.5C emissions",
+                         fill_colours = unname(reduction_colors_2), 
+                         fill_by_sign = FALSE, rect_text_labels = c("", "", "", "", "", "", ""), 
+                         total_rect_text = "", rect_text_size = 1.8)+
+  theme_minimal()+
+  labs(title = "Global contributions to emissions reductions from mitigation measures in 2050",
+       y= bquote(Gt~CO[2]), x=" ")+
+  theme(axis.text.x = element_text(angle = 20, hjust = 1))+
+  theme(text = element_text(size=18))
+ggsave(paste0(fig_dir, "/waterfall_chart_values_Global_graphical_abstract.png"), height = 6, width = 10, units = "in")
 
 return(list(return_plot, return_plot_MEF))
 }
