@@ -2449,6 +2449,7 @@ plot_grid(steel_CO2_plots_1, steel_CO2_plots_2,
           ncol = 1, nrow = 3, labels = c("", "", "E"), 
           label_size = 13, rel_heights = c(1, 1, 1.5))
 ggsave(paste0(fig_dir, "/fig_2_main_fig_emissions_steel.png"), height = 15, width = 11, units = "in")
+ggsave(paste0(fig_dir, "/fig_2_main_fig_emissions_steel.tiff"), height = 15, width = 11, units = "in", dpi = 200)
 
 ## Material efficiency, price of steel, production by tech, and energy use; global, all scenarios ---------
 # combine material efficiency pie chart and production charts
@@ -2492,6 +2493,7 @@ ggsave(paste0(fig_dir, "/main_fig_mateff_prod_tech_energy_fuel_global.png"), hei
 plot_grid(MEF_charts_comb_2, prod_en_fuel_global, 
           nrow = 2, ncol = 1, label_size = 13, rel_heights = c(1, 1.5))
 ggsave(paste0(fig_dir, "/fig_3_main_fig_mateff_prod_tech_energy_fuel_global_v2.png"), height = 15, width = 10, units = "in")
+ggsave(paste0(fig_dir, "/fig_3_main_fig_mateff_prod_tech_energy_fuel_global_v2.tiff"), height = 15, width = 10, units = "in", dpi = 200)
 
 ggsave(paste0(fig_dir, "/main_fig_prod_tech_energy_fuel_global.png"), 
        plot = plot_grid(production_tech_global, energy_fuel_global, nrow = 2, ncol = 1,
@@ -2505,6 +2507,8 @@ plot_grid(production_tech_1p5_regions, energy_fuel_1p5_regions,
           align = "hv", axis = "lrtb")
 ggsave(paste0(fig_dir, "/fig_4_main_fig_prod_tech_energy_fuel_1p5_regions.png"),  
        height = 13, width = 11, units = "in")
+ggsave(paste0(fig_dir, "/fig_4_main_fig_prod_tech_energy_fuel_1p5_regions.tiff"),  
+       height = 13, width = 11, units = "in", dpi = 200)
 
 
 ## Overall emissions and emissions by sector ------------------
@@ -2550,6 +2554,8 @@ plot_grid(CO2_sector_global_combined_plot_2, CO2_AR6_elec_comb_plot,
           H2_comb_plot2, nrow = 3, ncol = 1, rel_heights = c(1.3, 1, 1))
 ggsave(paste0(fig_dir, "/fig_5_main_fig_CO2_sector_AR6_elec_H2.png"),
        height = 15, width = 13, units = "in")
+ggsave(paste0(fig_dir, "/fig_5_main_fig_CO2_sector_AR6_elec_H2.tiff"),
+       height = 15, width = 13, units = "in", dpi = 180)
 
 ## Regional production by technology and energy use by fuel for all main scenarios --------------
 for (i in regions_aggregated) {
@@ -2806,3 +2812,5 @@ plot_grid(production_tech_global_all_runs,
           ncol = 1, nrow = 2, labels = c("A", ""), rel_heights = c(1.5, 1))
 ggsave(paste0(fig_dir, "/fig_6_main_fig_all_scenarios_combined_fig_comp.png"),  
        height = 14, width = 12, units = "in")
+ggsave(paste0(fig_dir, "/fig_6_main_fig_all_scenarios_combined_fig_comp.tiff"),  
+       height = 14, width = 12, units = "in", dpi = 200)
